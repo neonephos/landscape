@@ -14,12 +14,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Landscape2 CLI
-        run: npm install -g landscape2
-
-      - name: Deploy Landscape2
+      - name: Deploy with Landscape2 Docker
         run: |
-          landscape2 \
+          docker run --rm \
+            -v ${{ github.workspace }}:/app \
+            ghcr.io/cncf/landscape2:latest \
             --logos logos \
             --data data.yml \
             --games games.yml \
