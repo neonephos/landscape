@@ -14,17 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-
-      - name: Install dependencies
-        run: npm install
+      - name: Install Landscape2 CLI
+        run: npm install -g landscape2
 
       - name: Deploy Landscape2
         run: |
-          npx landscape2 \
+          landscape2 \
             --logos logos \
             --data data.yml \
             --games games.yml \
