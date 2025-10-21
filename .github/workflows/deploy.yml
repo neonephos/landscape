@@ -18,10 +18,13 @@ jobs:
         run: |
           docker run --rm \
             -v ${{ github.workspace }}:/app \
+            -w /app \
             ghcr.io/cncf/landscape2:latest \
-            --logos logos \
-            --data data.yml \
-            --games games.yml \
-            --guide guide.yml \
-            --settings settings.yml \
-            --deploy
+            node index.js \
+              --logos logos \
+              --data data.yml \
+              --games games.yml \
+              --guide guide.yml \
+              --settings settings.yml \
+              --deploy
+
