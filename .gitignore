@@ -1,0 +1,4 @@
+# Ignore build and version folders
+build/
+version1/
+version2/
