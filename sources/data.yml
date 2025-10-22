@@ -103,14 +103,6 @@ categories:
     subcategories:
       - name: Federation Domain
         items:
-          - name: Garden Linux
-            homepage_url: https://gardenlinux.org/
-            logo: garden_linux_stacked_color.svg
-            project: growth
-            repo_url: https://github.com/gardenlinux
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-             accepted: "2025-11-13"
           - name: IronCore
             homepage_url: https://ironcore.dev/
             logo: ironcore_stacked_color.svg
@@ -124,6 +116,18 @@ categories:
             logo: cobaltcore_stacked_color.svg
             project: incubation
             repo_url: https://github.com/cobaltcore-dev/openstack-hypervisor-operator
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+             accepted: "2025-11-13"
+  - name: Physical Cloud Edge Resources Layer
+    subcategories:
+      - name: Federation Domain
+        items:
+          - name: Garden Linux
+            homepage_url: https://gardenlinux.org/
+            logo: garden_linux_stacked_color.svg
+            project: growth
+            repo_url: https://github.com/gardenlinux
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
              accepted: "2025-11-13"
