@@ -1,4 +1,4 @@
-name: Deploy Landscape2
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -7,25 +7,28 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Deploy with Landscape2 Docker
+      - name: Build Landscape2 site
         run: |
           docker run --rm \
-            -v ${{ github.workspace }}:/app \
-            -w /app \
+            -v ${{ github.workspace }}:/workspace/nn_landscape \
             ghcr.io/cncf/landscape2:latest \
-            bash -c "node index.js \
-              --logos logos \
-              --data data.yml \
-              --games games.yml \
-              --guide guide.yml \
-              --settings settings.yml \
-              --deploy"
+            landscape2 build \
+              --data-file data.yml \
+              --settings-file settings.yml \
+              --guide-file guide.yml \
+              --games-file games.yml \
+              --logos-path logos \
+              --output-dir build
 
-
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
