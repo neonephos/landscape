@@ -14,24 +14,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-    - name: Prepare build directory
-      run: |
-        mkdir -p build
-        chmod -R 777 build
+      - name: Prepare build directory
+        run: |
+          mkdir -p build
+          chmod -R 777 build
 
 
-    - name: Build Landscape2 site
-      run: |
-        docker run --rm \
-          -v ${{ github.workspace }}:/workspace \
-          ghcr.io/cncf/landscape2:latest \
-          landscape2 build \
-            --data-file /workspace/data.yml \
-            --settings-file /workspace/settings.yml \
-            --guide-file /workspace/guide.yml \
-            --games-file /workspace/games.yml \
-            --logos-path /workspace/logos \
-            --output-dir /workspace/build
+      - name: Build Landscape2 site
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/workspace \
+            ghcr.io/cncf/landscape2:latest \
+            landscape2 build \
+              --data-file /workspace/data.yml \
+              --settings-file /workspace/settings.yml \
+              --guide-file /workspace/guide.yml \
+              --games-file /workspace/games.yml \
+              --logos-path /workspace/logos \
+              --output-dir /workspace/build
 
 
 
