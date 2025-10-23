@@ -5,10 +5,20 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
 categories:
-  - name: Application Layer
+  - name: Federation Domain
     subcategories:
-      - name: Federation Domain
+      - name: Application Layer
         items:
+          - name: Open Component Model
+            homepage_url: https://ocm.software/
+            logo: ocm_horizontal_color.svg
+            project: growth
+            second_path: 
+              - "Sustainability Domain / Application Layer"
+            repo_url: https://github.com/open-component-model/
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+             accepted: "2025-11-13"
           - name: Open Micro Frontend Platform
             homepage_url: https://openmfp.org/
             logo: openmfp_icon_color.svg
@@ -25,19 +35,7 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
              accepted: "2025-11-13"
-      - name: Security and Compliance Domain
-        items:
-          - name: Open Component Model
-            homepage_url: https://ocm.software/
-            logo: ocm_horizontal_color.svg
-            project: incubation
-            repo_url: https://github.com/open-component-model/
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-             accepted: "2025-11-13"
-  - name: Service Orchestration Layer
-    subcategories:
-      - name: Federation Domain
+      - name: Service Orchestration Layer
         items:
           - name: Gardener
             homepage_url: https://gardener.cloud
@@ -48,8 +46,6 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
              accepted: "2025-11-13"
-      - name: Management Domain
-        items:
           - name: Greenhouse
             homepage_url: https://cloudoperators.github.io/greenhouse/
             logo: greenhouse_icon_color.svg
@@ -66,9 +62,7 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
              accepted: "2025-11-13"
-  - name: Data Layer
-    subcategories:
-      - name: Federation Domain
+      - name: Data Layer
         items:
           - name: Open Resource Discovery
             homepage_url: https://open-resource-discovery.github.io/specification/
@@ -76,11 +70,10 @@ categories:
             project: incubation
             repo_url: https://github.com/open-resource-discovery
             crunchbase: https://www.crunchbase.com/organization/neonephos
+            specification: true
             extra:
              accepted: "2025-11-13"
-  - name: Cloud Edge Platform Layer
-    subcategories:
-      - name: Federation Domain
+      - name: Cloud Edge Platform Layer
         items:
           - name: Platform Mesh
             description: |
@@ -99,10 +92,16 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
              accepted: "2025-11-13"
-  - name: Virtualization Layer
-    subcategories:
-      - name: Federation Domain
+      - name: Virtualization Layer
         items:
+          - name: Garden Linux
+            homepage_url: https://gardenlinux.org/
+            logo: garden_linux_stacked_color.svg
+            project: impact
+            repo_url: https://github.com/gardenlinux
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+             accepted: "2025-11-13"
           - name: IronCore
             homepage_url: https://ironcore.dev/
             logo: ironcore_stacked_color.svg
@@ -116,18 +115,6 @@ categories:
             logo: cobaltcore_stacked_color.svg
             project: incubation
             repo_url: https://github.com/cobaltcore-dev/openstack-hypervisor-operator
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-             accepted: "2025-11-13"
-  - name: Physical Cloud Edge Resources Layer
-    subcategories:
-      - name: Federation Domain
-        items:
-          - name: Garden Linux
-            homepage_url: https://gardenlinux.org/
-            logo: garden_linux_stacked_color.svg
-            project: growth
-            repo_url: https://github.com/gardenlinux
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
              accepted: "2025-11-13"
