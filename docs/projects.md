@@ -7,6 +7,7 @@
 [gardener](https://gardener.cloud) | impact | 2025-11-13 | 2025-11-13 |  |  |  | 0 |  |
 [greenhouse](https://cloudoperators.github.io/greenhouse/) | incubation | 2025-11-13 | 2025-11-13 |  |  |  | 0 |  |
 [ironcore](https://ironcore.dev/) | growth | 2025-11-13 | 2025-11-13 |  |  |  | 0 |  |
+[katalis](https://github.com/neonephos-katalis) | incubation | 2025-11-13 | 2025-11-13 |  |  |  | 0 |  |
 [luigi](https://github.com/luigi-project/) | incubation | 2025-11-13 | 2025-11-13 |  |  |  | 0 |  |
 [open component model](https://ocm.software/) | growth | 2025-11-13 | 2025-11-13 |  |  |  | 0 |  |
 [open managed control plane](https://github.com/openmcp-project) | incubation | 2025-11-13 | 2025-11-13 |  |  |  | 0 |  |
