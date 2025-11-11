@@ -11,13 +11,10 @@ categories:
         items:
           - name: Platform Mesh
             description: |
-              The Platform Mesh defines an environment that allows service providers to offer services of any kind and service consumers to discover those services, order capabilities, and control their lifecycle.
+              The Platform Mesh is the main Platform API for users and technical services to order and orchestrate capabilities attached to the environment.
+              
+              Its guiding and design principle is inherited from Kubernetes’s declarative API approach with its digital twin manifests, the Kubernetes Resource Model (KRM). It utilizes and refines the upstream project KCP for its purpose.
 
-              "Platform Mesh" enables developers (consumers) to select and utilize the needed and preferred services from various service marketplaces.
-
-              It does not make any assumptions about these services or the marketplaces, nor does it mandate the use of any specific services. Instead, it offers a mesh and the essential contracts that allows service providers to offer their services freely and enables service consumers to discover, order, and use these services.
-
-              This framework aims to transcend the traditional layered approach of strictly separating IaaS, PaaS, and SaaS in past infrastructures. Both higher-level and lower-level services are provided and managed through the same mechanism.
             homepage_url: https://platform-mesh.io/
             logo: platform_mesh_stacked_color.svg
             project: incubation
@@ -27,6 +24,11 @@ categories:
             extra:
               accepted: "2025-11-13"
           - name: Katalis
+            description: |
+              Katalis should enable a cloud edge continuum in both directions:
+
+              The consumption of telco operator compute/storage resources from gardener controlled environments, i.E. to deploy application fragments close the edge of a UE to fulfill latency requirements
+              The extension of telco operator federation to software cloud providers resources
             logo: katalis_icon_color.png
             project: incubation
             homepage_url: https://github.com/neonephos-katalis
@@ -41,6 +43,10 @@ categories:
       - name: Management
         items:
           - name: Open Component Model
+            description: |
+              The Open Component Model (OCM) is an open standard + reference implementation for describing software artifacts in a uniform and machine-readable way. OCM enables consistent end-to-end lifecycle management processes and a secure software supply chain.
+
+
             homepage_url: https://ocm.software/
             logo: ocm_horizontal_color.svg
             project: growth
@@ -51,6 +57,7 @@ categories:
             extra:
               accepted: "2025-11-13"
           - name: Greenhouse
+            description: Greenhouse is a Kubernetes based day 2 operations platform focusing on providing a set of opinionated tools & operational processes for managing cloud native infrastructure.
             homepage_url: https://cloudoperators.github.io/greenhouse/
             logo: greenhouse_icon_color.svg
             project: incubation
@@ -64,6 +71,8 @@ categories:
       - name: Application
         items:
           - name: Open Micro Frontend Platform
+            description: |
+              The Open Micro Frontend Platform (OpenMFP) aims to provide the opinionated, “batteries-included” platform for building portals and complex web-based applications with enterprise qualities.
             homepage_url: https://openmfp.org/
             logo: openmfp_icon_color.svg
             project: incubation
@@ -72,6 +81,7 @@ categories:
             extra:
               accepted: "2025-11-13"
           - name: Luigi
+            description: Luigi is a micro frontend framework that enables you to create a unified user experience across a large set of functionality.
             homepage_url: https://github.com/luigi-project/
             logo: luigi_icon_color.svg
             project: incubation
@@ -85,6 +95,9 @@ categories:
       - name: Data
         items:
           - name: Open Resource Discovery
+            description: |
+              ORD is an open protocol for the decentralized publishing and discovery of application and service metadata. It provides a structured schema for metadata such as endpoints, capabilities, documentation links, and ownership details, ensuring that application resources like APIs, events, data products and AI agents can be discovered, understood, and integrated consistently across different systems and marketplaces.
+
             homepage_url: https://open-resource-discovery.github.io/specification/
             logo: ord_icon_color.svg
             project: incubation
@@ -99,6 +112,10 @@ categories:
       - name: Service Orchestration
         items:
           - name: Open Managed Control Plane
+            description: |
+              OpenMCP is a managed Infrastructure-as-data orchestration layer, designed to streamline and automate the management of cloud resources and corresponding services.
+              It involves the coordination and management of various Infrastructure-as-data services, to support the automation of workflows such as provisioning and scaling of workloads.
+
             homepage_url: https://github.com/openmcp-project
             logo: openmcp_icon_color.svg
             project: incubation
@@ -112,6 +129,7 @@ categories:
       - name: Cloud Edge Platform
         items:
           - name: Gardener
+            description: Deliver fully-managed clusters at scale everywhere with your own Gardener installation.
             homepage_url: https://gardener.cloud
             logo: gardener_stacked_color.svg
             project: graduated
@@ -121,6 +139,7 @@ categories:
             extra:
               accepted: "2025-11-13"
           - name: Garden Linux
+            description: Garden Linux is a Debian GNU/Linux derivate that aims to provide small, auditable Linux images for most cloud providers (e.g. AWS, Azure, GCP etc.) and bare-metal machines.
             homepage_url: https://gardenlinux.org/
             logo: garden_linux_stacked_color.svg
             project: graduated
@@ -134,6 +153,8 @@ categories:
       - name: "Virtualization"
         items:
           - name: IronCore
+            description: |
+              Next Generation Cloud Native Infrastructure as a Service and Bare Metal Automation. IronCore is a modular and scalable system designed to manage compute, networking, and storage resources efficiently.
             homepage_url: https://ironcore.dev/
             logo: ironcore_stacked_color.svg
             project: growth
