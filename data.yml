@@ -38,30 +38,6 @@ categories:
             
               
 
-  - name: Security and Compliance
-    subcategories:
-      - name: Security and Compliance
-        items:
-          - name: OpenBAO
-            description: |
-              OpenBao is an identity-based secrets and encryption management system. A secret is anything that you want to tightly control access to, such as API encryption keys, passwords, and certificates. OpenBao provides encryption services that are gated by authentication and authorization methods. Using OpenBao’s UI, CLI, or HTTP API, access to secrets and other sensitive data can be securely stored and managed, tightly controlled (restricted), and auditable.
-            homepage_url: https://openbao.org/
-            logo: openbao-vertical-text-color.svg
-            repo_url: https://github.com/platform-mesh/helm-charts
-          - name: Open Crypto Broker
-            description: |
-              The Open Crypto Broker allows to move cryptographic operations into a managed environments. This allows to enforce governance and policies as to which algorithms are allowed or not.
-            homepage_url: https://github.com/orgs/open-crypto-broker
-            logo: open-crypto-broker-logo.svg
-            repo_url: https://github.com/orgs/open-crypto-broker/documentation
-          - name: Open Key Chain Manager
-            description: |
-              OpenKCM serves as a central management layer for encryption of data at-rest. It comes with built-in multi-tenancy support and allows each tenant to stay in control of designing keychains and managing their lifecycle.
-            homepage_url: https://github.com/openkcm
-            logo: open-key-chain-manager-logo.png
-            repo_url: https://github.com/openkcm/orbital
-
-
   - name: Management
     subcategories:
       - name: Management
@@ -113,12 +89,6 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             
               
-          - name: Konfidence
-            description: Konfidence is an open-source software delivery framework. It ensures that only tested and approved versions reach production, addressing a common challenge in complex IT landscapes.
-            homepage_url: https://github.com/konfidence-project
-            logo: konfidence-project-logo.png
-            repo_url: https://github.com/konfidence-project
-
 
   - name: Data
     subcategories:
@@ -136,11 +106,6 @@ categories:
             specification: true
             
               
-          - name: United Metadata Service
-            description: |
-              The Unified Metadata Service (UMS) is a centralized platform designed to consolidate fragmented metadata, such as APIs, events, services, and tenant information across complex landscapes into a unified, extensible, and model-driven environment. UMS provides a unified metadata layer that enables marketplaces to offer consistent, searchable service catalogs and allows AI systems to interpret, discover, and orchestrate APIs, events and data products automatically.
-            homepage_url: https://apeirora.eu
-            logo: united-metadata-service-logo.png
 
   - name: Service Orchestration
     subcategories:
