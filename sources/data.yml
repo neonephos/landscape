@@ -17,12 +17,12 @@ categories:
 
             homepage_url: https://platform-mesh.io/
             logo: platform_mesh_stacked_color.svg
-            project: incubation
+            
             repo_url: https://github.com/platform-mesh/helm-charts
             summary_integration: "Open Micro Frontend Platform, Gardener"
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
           - name: Katalis
             description: |
               Katalis should enable a cloud edge continuum in both directions:
@@ -30,13 +30,37 @@ categories:
               The consumption of telco operator compute/storage resources from gardener controlled environments, i.E. to deploy application fragments close the edge of a UE to fulfill latency requirements
               The extension of telco operator federation to software cloud providers resources
             logo: katalis_icon_color.png
-            project: incubation
+            
             homepage_url: https://github.com/neonephos-katalis
             repo_url: https://github.com/neonephos-katalis
             summary_integration: "Open Micro Frontend Platform, Gardener"
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
+
+  - name: Security and Compliance
+    subcategories:
+      - name: Security and Compliance
+        items:
+          - name: OpenBAO
+            description: |
+              OpenBao is an identity-based secrets and encryption management system. A secret is anything that you want to tightly control access to, such as API encryption keys, passwords, and certificates. OpenBao provides encryption services that are gated by authentication and authorization methods. Using OpenBao’s UI, CLI, or HTTP API, access to secrets and other sensitive data can be securely stored and managed, tightly controlled (restricted), and auditable.
+            homepage_url: https://openbao.org/
+            logo: openbao-vertical-text-color.svg
+            repo_url: https://github.com/platform-mesh/helm-charts
+          - name: Open Crypto Broker
+            description: |
+              The Open Crypto Broker allows to move cryptographic operations into a managed environments. This allows to enforce governance and policies as to which algorithms are allowed or not.
+            homepage_url: https://github.com/orgs/open-crypto-broker
+            logo: open-crypto-broker-logo.svg
+            repo_url: https://github.com/orgs/open-crypto-broker/documentation
+          - name: Open Key Chain Manager
+            description: |
+              OpenKCM serves as a central management layer for encryption of data at-rest. It comes with built-in multi-tenancy support and allows each tenant to stay in control of designing keychains and managing their lifecycle.
+            homepage_url: https://github.com/openkcm
+            logo: open-key-chain-manager-logo.png
+            repo_url: https://github.com/openkcm/orbital
+
 
   - name: Management
     subcategories:
@@ -49,22 +73,22 @@ categories:
 
             homepage_url: https://ocm.software/
             logo: ocm_horizontal_color.svg
-            project: growth
+            
             second_path:
               - "Sustainability Domain / Application Layer"
             repo_url: https://github.com/open-component-model/
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
           - name: Greenhouse
             description: Greenhouse is a Kubernetes based day 2 operations platform focusing on providing a set of opinionated tools & operational processes for managing cloud native infrastructure.
             homepage_url: https://cloudoperators.github.io/greenhouse/
             logo: greenhouse_icon_color.svg
-            project: incubation
+            
             repo_url: https://github.com/cloudoperators/greenhouse
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
 
   - name: Application
     subcategories:
@@ -75,20 +99,26 @@ categories:
               The Open Micro Frontend Platform (OpenMFP) aims to provide the opinionated, “batteries-included” platform for building portals and complex web-based applications with enterprise qualities.
             homepage_url: https://openmfp.org/
             logo: openmfp_icon_color.svg
-            project: incubation
+            
             repo_url: https://github.com/openmfp
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
           - name: Luigi
             description: Luigi is a micro frontend framework that enables you to create a unified user experience across a large set of functionality.
             homepage_url: https://github.com/luigi-project/
             logo: luigi_icon_color.svg
-            project: incubation
+            
             repo_url: https://github.com/luigi-project/luigi
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
+          - name: Konfidence
+            description: Konfidence is an open-source software delivery framework. It ensures that only tested and approved versions reach production, addressing a common challenge in complex IT landscapes.
+            homepage_url: https://github.com/konfidence-project
+            logo: konfidence-project-logo.png
+            repo_url: https://github.com/konfidence-project
+
 
   - name: Data
     subcategories:
@@ -100,12 +130,17 @@ categories:
 
             homepage_url: https://open-resource-discovery.github.io/specification/
             logo: ord_icon_color.svg
-            project: incubation
+            
             repo_url: https://github.com/open-resource-discovery
             crunchbase: https://www.crunchbase.com/organization/neonephos
             specification: true
-            extra:
-              accepted: "2025-11-13"
+            
+              
+          - name: United Metadata Service
+            description: |
+              The Unified Metadata Service (UMS) is a centralized platform designed to consolidate fragmented metadata, such as APIs, events, services, and tenant information across complex landscapes into a unified, extensible, and model-driven environment. UMS provides a unified metadata layer that enables marketplaces to offer consistent, searchable service catalogs and allows AI systems to interpret, discover, and orchestrate APIs, events and data products automatically.
+            homepage_url: https://apeirora.eu
+            logo: united-metadata-service-logo.png
 
   - name: Service Orchestration
     subcategories:
@@ -118,11 +153,11 @@ categories:
 
             homepage_url: https://github.com/openmcp-project
             logo: openmcp_icon_color.svg
-            project: incubation
+            
             repo_url: https://github.com/openmcp-project
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
 
   - name: Cloud Edge Platform
     subcategories:
@@ -132,21 +167,21 @@ categories:
             description: Deliver fully-managed clusters at scale everywhere with your own Gardener installation.
             homepage_url: https://gardener.cloud
             logo: gardener_stacked_color.svg
-            project: graduated
+            
             slack_url: https://join.slack.com/t/gardener-cloud/shared_invite/zt-33c9daems-3oOorhnqOSnldZPWqGmIBw
             repo_url: https://github.com/gardener/gardener
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
           - name: Garden Linux
             description: Garden Linux is a Debian GNU/Linux derivate that aims to provide small, auditable Linux images for most cloud providers (e.g. AWS, Azure, GCP etc.) and bare-metal machines.
             homepage_url: https://gardenlinux.org/
             logo: garden_linux_stacked_color.svg
-            project: graduated
+            
             repo_url: https://github.com/gardenlinux
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
 
   - name: Virtualization
     subcategories:
@@ -157,16 +192,16 @@ categories:
               Next Generation Cloud Native Infrastructure as a Service and Bare Metal Automation. IronCore is a modular and scalable system designed to manage compute, networking, and storage resources efficiently.
             homepage_url: https://ironcore.dev/
             logo: ironcore_stacked_color.svg
-            project: growth
+            
             repo_url: https://github.com/ironcore-dev
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
           - name: CobaltCore
             homepage_url: https://github.com/cobaltcore-dev
             logo: cobaltcore_stacked_color.svg
-            project: incubation
+            
             repo_url: https://github.com/cobaltcore-dev/openstack-hypervisor-operator
             crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: "2025-11-13"
+            
+              
