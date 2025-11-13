@@ -29,7 +29,7 @@ categories:
 
               The consumption of telco operator compute/storage resources from gardener controlled environments, i.E. to deploy application fragments close the edge of a UE to fulfill latency requirements
               The extension of telco operator federation to software cloud providers resources
-            logo: katalis_icon_color.png
+            logo: katalis_icon_color.svg
             
             homepage_url: https://github.com/neonephos-katalis
             repo_url: https://github.com/neonephos-katalis
