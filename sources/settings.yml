@@ -39,22 +39,15 @@ colors:
 
 footer:
   links:
-    github: "https://github.com/neonephos"
-    homepage: "https://neonephos.org"
-    linkedin: "https://www.linkedin.com/company/neonephos-foundation/"
-    zulip: "https://slack.cncf.io/"
-    youtube: "https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw"
-  logo: "https://raw.githubusercontent.com/neonephos/artwork/df8258a3e902ba98e9ceccde30d0a4e568f58319/other/neonephos_foundation/horizontal/white/neonephos_horizontal_white.svg"
-  text: |
-    **Copyright © Linux Foundation Europe.**
-    NeoNephos is a project of Linux Foundation Europe. 
-    All rights reserved. [View Policies.](https://linuxfoundation.eu/en/policies?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753777412155.1753863796744.19&__hssc=81619592.3.1753863796744&__hsfp=2164450451)
+    github: "https://github.com/apeirora"
+    homepage: "https://apeirora.eu"
+  logo: "https://raw.githubusercontent.com/apeirora/.github/main/.github/assets/ApeiroRA.svg"
 
 grid_items_size: large
 
 
 groups:
-  - name: NeoNephos Projects
+  - name: ApeiroRA Projects
     categories:
       - Federation
       - Sustainability
@@ -68,7 +61,7 @@ groups:
 
 header:
   links:
-    homepage: "https://linuxfoundation.eu/"
-  logo: "https://raw.githubusercontent.com/neonephos/artwork/df8258a3e902ba98e9ceccde30d0a4e568f58319/other/neonephos_foundation/horizontal/color/neonephos_horizontal_color.svg"
+    homepage: "https://apeirora.eu"
+  logo: "https://raw.githubusercontent.com/apeirora/.github/main/.github/assets/ApeiroRA.svg"
   hide_games: true
 screenshot_width: 1500
