@@ -35,12 +35,6 @@ categories:
             homepage_url: https://openbao.org/
             logo: openbao-vertical-text-color.svg
             repo_url: https://github.com/platform-mesh/helm-charts
-          - name: Open Crypto Broker
-            description: |
-              The Open Crypto Broker allows to move cryptographic operations into a managed environments. This allows to enforce governance and policies as to which algorithms are allowed or not.
-            homepage_url: https://github.com/orgs/open-crypto-broker
-            logo: open-crypto-broker-logo.svg
-            repo_url: https://github.com/orgs/open-crypto-broker/documentation
           - name: Open Key Chain Manager
             description: |
               OpenKCM serves as a central management layer for encryption of data at-rest. It comes with built-in multi-tenancy support and allows each tenant to stay in control of designing keychains and managing their lifecycle.
