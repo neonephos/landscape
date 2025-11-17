@@ -20,7 +20,7 @@ Open Micro Frontend Platform,,https://openmfp.org/,logos/19b5d6afd06c645feb91922
 ",,,,,,,,,,,,Application,Application,,,,,,,,,,,,,,,,,,,,,,,,
 Open Resource Discovery,,https://open-resource-discovery.github.io/specification/,logos/0bef3e77803f21fe66089b5ce950b3615c5730cee5374d5255b108c286434bec.svg,,https://www.crunchbase.com/organization/neonephos,,,,,,,"ORD is an open protocol for the decentralized publishing and discovery of application and service metadata. It provides a structured schema for metadata such as endpoints, capabilities, documentation links, and ownership details, ensuring that application resources like APIs, events, data products and AI agents can be discovered, understood, and integrated consistently across different systems and marketplaces.
 ",,,,,,,,,,,,Data,Data,,,,,,,,,,,,,,,,,,,,,,,,
-Platform Mesh,,https://platform-mesh.io/,logos/e6c24c4345fabc7d5b0ca9d6a211dd8696d4e655a91c68b50f58d3122a3f4444.svg,,https://www.crunchbase.com/organization/neonephos,,,,,,,"The Platform Mesh is the main Platform API for users and technical services to order and orchestrate capabilities attached to the environment.
+Platform Mesh,,https://platform-mesh.io/,logos/d370a539a795daad2cd9849dc26dc7fd251b771fffdd251729f184638250107d.svg,,https://www.crunchbase.com/organization/neonephos,,,,,,,"The Platform Mesh is the main Platform API for users and technical services to order and orchestrate capabilities attached to the environment.
 
 Its guiding and design principle is inherited from Kubernetes’s declarative API approach with its digital twin manifests, the Kubernetes Resource Model (KRM). It utilizes and refines the upstream project KCP for its purpose.
 ",,,,,,,,,,,,Federation,Federation,,,,,,,,,,,,,,,,,,,,,,,,
