@@ -1,0 +1,20 @@
+landscapeMemberClasses:
+   - name: Premier
+     category: Premier
+   - name: General
+     category: General
+   - name: General Sponsor
+     category: General
+   - name: Associate
+     category: Associate
+slug: neonephos-foundation
+memberSuffix: " (member)"
+memberUsePublicMembershipLogo: true
+landscapeMemberCategory: NeoNephos Foundation Sponsors
+landscapeProjectsCategory: NeoNephos Foundation Projects
+landscapeProjectsSubcategories:
+  - name: All
+    category: All
+landscapefile: data.yml
+hostedLogosDir: logos
+projectsDefaultCrunchbase: https://www.crunchbase.com/organization/neonephos

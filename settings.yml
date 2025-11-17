@@ -6,7 +6,7 @@
 
 foundation: NeoNephos Foundation
 
-url: http://localhost:8080
+url: http://landscape.neonephos.org
 
 colors:
   color1: "rgba(15, 107, 255, 1)"
@@ -17,7 +17,7 @@ colors:
   color6: "rgba(0, 42, 81, 0.7)"
   color7: "rgba(180, 219, 255, 1)"
 
-#featured_items:
+featured_items:
 #  - field: maturity
 #    options:
 #      - value: impact
@@ -32,28 +32,37 @@ colors:
 #      - value: emeritus
 #        order: 4
 #        label: NeoNephos Emeritus
-#  - field: subcategory
-#    options:
-#      - value: Premium
-#      - value: General
+  - field: subcategory
+    options:
+      - value: Premier
+      - value: General
 
 footer:
   links:
     github: "https://github.com/neonephos"
     homepage: "https://neonephos.org"
     linkedin: "https://www.linkedin.com/company/neonephos-foundation/"
-    zulip: "https://slack.cncf.io/"
+    zulip: "https://linuxfoundation.zulipchat.com/#narrow/channel/525732-neonephos-discussion"
     youtube: "https://www.youtube.com/channel/UCqTJlPfPRAynwpcNI0O7xkw"
   logo: "https://raw.githubusercontent.com/neonephos/artwork/df8258a3e902ba98e9ceccde30d0a4e568f58319/other/neonephos_foundation/horizontal/white/neonephos_horizontal_white.svg"
   text: |
     **Copyright © Linux Foundation Europe.**
     NeoNephos is a project of Linux Foundation Europe. 
-    All rights reserved. [View Policies.](https://linuxfoundation.eu/en/policies?__hstc=81619592.11739e1f4ca03192f4e918409f725053.1748961872693.1753777412155.1753863796744.19&__hssc=81619592.3.1753863796744&__hsfp=2164450451)
+    All rights reserved. [View Policies](https://linuxfoundation.eu/policies).
 
 grid_items_size: large
 
+categories:
+  - name: NeoNephos Foundation Sponsors
+    subcategories:
+      - Premier
+      - General
+      - Associate
 
 groups:
+  - name: Sponsors
+    categories:
+      - NeoNephos Foundation Sponsors
   - name: NeoNephos Projects
     categories:
       - Federation
@@ -68,7 +77,7 @@ groups:
 
 header:
   links:
-    homepage: "https://linuxfoundation.eu/"
+    homepage: "https://neonephos.org/"
   logo: "https://raw.githubusercontent.com/neonephos/artwork/df8258a3e902ba98e9ceccde30d0a4e568f58319/other/neonephos_foundation/horizontal/color/neonephos_horizontal_color.svg"
   hide_games: true
 screenshot_width: 1500
