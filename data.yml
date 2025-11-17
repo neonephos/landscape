@@ -243,11 +243,16 @@ categories:
           - item:
             name: Greenhouse
             homepage_url: https://cloudoperators.github.io/greenhouse/
-            second_path:
-              - Management / Management
             logo: greenhouse.svg
             description: Greenhouse is a comprehensive platform designed to address the challenges of operating large-scale cloud infrastructures. It offers a holistic dashboard and API to manage various operational aspects efficiently and transparently. Moreover, it enables operations of a globally distributed cloud infrastructure in compliance with industry standards. The platform addresses common operational challenges such as the complexity of tools, fragmentation of configuration, visibility and permission management. Several plugins extend the core platform, providing cloud-native observability, security & compliance tooling and more. These plugins come with sane default configurations and include all necessary components for application-specific needs such as production-proven alerts, playbooks, metric visualization dashboards.
+            second_path:
+              - Management / Management
             repo_url: https://github.com/cloudoperators/greenhouse
+            additional_repos:
+              - repo_url: https://github.com/cloudoperators/greenhouse-extensions
+              - repo_url: https://github.com/cloudoperators/juno
+              - repo_url: https://github.com/cloudoperators/heureka
+              - repo_url: https://github.com/cloudoperators/steering
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-04-06'
@@ -262,19 +267,20 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfOR02rCuEhDDjajJL
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/greenhouse/greenhouse_Charter.pdf?v=1761933677450
-            additional_repos:
-              - repo_url: https://github.com/cloudoperators/greenhouse-extensions
-              - repo_url: https://github.com/cloudoperators/juno
-              - repo_url: https://github.com/cloudoperators/heureka
-              - repo_url: https://github.com/cloudoperators/steering
           - item:
             name: IronCore
             homepage_url: https://ironcore-dev.github.io/ironcore/
             logo: ironcore.svg
+            description: IronCore provides the new reference for compounded software layers for inventorying, managing, and maintaining Baremetal using Kubernetes’ cloud-native principles. Kubernetes, originally designed to manage and orchestrate containerized applications and microservices, has significantly expanded its reach through its inherent API extensibility, allowing it to be adapted to a wide range of use cases entirely outside the realm of containers. IronCore takes a modern spin with Kubernetes, offering a single interface for managing resources orchestrated across regions, data centers, and availability zones. All assembled with the identical blueprint, thereby offering unmatched flexibility, scalability, and ease of use. Unlike traditional infrastructure solutions, IronCore delivers a much sought, fresh, next generation approach. As a default, Ceph is modularly provided as a cloud-natively automated, vendor-neutral storage backend for block, shared, and object storage. Furthermore, a disruptive network fabric based on CLOS Topology is included. The software defined network data plane materializes through routed layer 3 only, using an IPv6 overlay, and is grounded on the robust, standard experience of the established internet architecture and technology.
             second_path:
               - Virtualization / Virtualization
-            description: IronCore provides the new reference for compounded software layers for inventorying, managing, and maintaining Baremetal using Kubernetes’ cloud-native principles. Kubernetes, originally designed to manage and orchestrate containerized applications and microservices, has significantly expanded its reach through its inherent API extensibility, allowing it to be adapted to a wide range of use cases entirely outside the realm of containers. IronCore takes a modern spin with Kubernetes, offering a single interface for managing resources orchestrated across regions, data centers, and availability zones. All assembled with the identical blueprint, thereby offering unmatched flexibility, scalability, and ease of use. Unlike traditional infrastructure solutions, IronCore delivers a much sought, fresh, next generation approach. As a default, Ceph is modularly provided as a cloud-natively automated, vendor-neutral storage backend for block, shared, and object storage. Furthermore, a disruptive network fabric based on CLOS Topology is included. The software defined network data plane materializes through routed layer 3 only, using an IPv6 overlay, and is grounded on the robust, standard experience of the established internet architecture and technology.
             repo_url: https://github.com/ironcore-dev/ironcore
+            additional_repos:
+              - repo_url: https://github.com/ironcore-dev/ironcore-net
+              - repo_url: https://github.com/ironcore-dev/ceph-provider
+              - repo_url: https://github.com/ironcore-dev/libvirt-provider
+              - repo_url: https://github.com/ironcore-dev/dpservice
+              - repo_url: https://github.com/ironcore-dev/metal-operator
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
@@ -289,19 +295,13 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdpQVHdB0pX7liH2V
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/ironcore/ironcore_Charter.pdf?v=1761932939494
-            additional_repos:
-              - repo_url: https://github.com/ironcore-dev/ironcore-net
-              - repo_url: https://github.com/ironcore-dev/ceph-provider
-              - repo_url: https://github.com/ironcore-dev/libvirt-provider
-              - repo_url: https://github.com/ironcore-dev/dpservice
-              - repo_url: https://github.com/ironcore-dev/metal-operator
           - item:
             name: Open Managed Control Plane (openMCP)
             homepage_url: https://github.com/openmcp-project
             logo: open_managed_control_plane_openmcp.svg
+            description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
             second_path:
               - Service Orchestration / Service Orchestration
-            description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
             repo_url: https://github.com/openmcp-project/metrics-operator
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -321,11 +321,15 @@ categories:
           - item:
             name: Open Micro Frontend Platform
             homepage_url: https://openmfp.org/
-            second_path:
-              - Application / Application
             logo: open_micro_frontend_platform.svg
             description: Open Micro Frontend Platform realizes the concepts of the Platform Mesh providing a platform foundation including Account Models, Security Services and a Kubernetes Control Plane consumable by API and a Micro Frontend based Portal experience.
+            second_path:
+              - Application / Application
             repo_url: https://github.com/openmfp/openmfp.org
+            additional_repos:
+              - repo_url: https://github.com/openmfp/community
+              - repo_url: https://github.com/openmfp/portal-server-lib
+              - repo_url: https://github.com/openmfp/portal-ui-lib
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
@@ -340,17 +344,13 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfJH9to3ssdhCbc0br
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-micro-frontend-platform/open-micro-frontend-platform_Charter.pdf?v=1761933564339
-            additional_repos:
-              - repo_url: https://github.com/openmfp/community
-              - repo_url: https://github.com/openmfp/portal-server-lib
-              - repo_url: https://github.com/openmfp/portal-ui-lib
           - item:
             name: Platform Mesh
             homepage_url: https://documentation.apeirora.eu/platform-mesh
-            second_path:
-              - Federation / Federation
             logo: platform_mesh.svg
             description: Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. It enables a standardized concept for Services coming from Managed Service Providers through the Kubernetes API thereby  allowing developers and admins to discover, access, and order services from various sources through their beloved kubectl.
+            second_path:
+              - Federation / Federation
             repo_url: https://github.com/platform-mesh/kubernetes-graphql-gateway
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -359,7 +359,6 @@ categories:
                 slug: platform-mesh
                 project_org: https://github.com/platform-mesh
               dev_stats_url: https://insights.linuxfoundation.org/project/platform-mesh
-              summary_integration: "Open Micro Frontend Platform, Gardener"
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/platform-mesh
@@ -367,4 +366,5 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfSyWalrMmArSAt6Co
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/platform-mesh/platform-mesh_Charter.pdf?v=1761931750006
+              summary_integration: Open Micro Frontend Platform, Gardener
             additional_repos: []
