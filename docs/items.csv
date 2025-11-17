@@ -5,7 +5,7 @@ Gardener,,https://gardener.cloud,logos/3adfc7d9713d27eed7deadc7128a964e154f6eaed
 Greenhouse,,https://cloudoperators.github.io/greenhouse/,logos/021cc42d9ef4dec490122809ef9ba09ebc140a38061c24a71859d0baa0ed341b.svg,,https://www.crunchbase.com/organization/neonephos,,,,,,,Greenhouse is a Kubernetes based day 2 operations platform focusing on providing a set of opinionated tools & operational processes for managing cloud native infrastructure.,,,,,,,,,,,,Management,Management,,,,,,,,,,,,,,,,,,,,,,,,
 IronCore,,https://ironcore.dev/,logos/6fedf8745197f6e87eba520bc7dadaa1539f3f0a4e8800241925550351123987.svg,,https://www.crunchbase.com/organization/neonephos,,,,,,,"Next Generation Cloud Native Infrastructure as a Service and Bare Metal Automation. IronCore is a modular and scalable system designed to manage compute, networking, and storage resources efficiently.
 ",,,,,,,,,,,,Virtualization,Virtualization,,,,,,,,,,,,,,,,,,,,,,,,
-Katalis,,https://github.com/neonephos-katalis,logos/96403a7979c2f0274361844ee079ea08382cea66b940286ff06f135302fff9e8.svg,,https://www.crunchbase.com/organization/neonephos,,,,,,,"Katalis should enable a cloud edge continuum in both directions:
+Katalis,,https://github.com/neonephos-katalis,logos/5d790c575b576d27385ffc2035992fb403a7132cb2de8b56a51ed23817603b95.svg,,https://www.crunchbase.com/organization/neonephos,,,,,,,"Katalis should enable a cloud edge continuum in both directions:
 
 The consumption of telco operator compute/storage resources from gardener controlled environments, i.E. to deploy application fragments close the edge of a UE to fulfill latency requirements
 The extension of telco operator federation to software cloud providers resources
