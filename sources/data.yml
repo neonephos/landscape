@@ -241,18 +241,61 @@ categories:
         name: All
         items:
           - item:
+            name: CobaltCore
+            homepage_url: https://github.com/cobaltcore-dev
+            logo: cobaltcore.svg
+            description: The mission of the Project is to provide a reimagined, opinionated, and Kubernetes enabled OpenStack distribution, fully embedded with other cloud components.
+            repo_url: https://github.com/cobaltcore-dev/gardenlinux
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2025-11-18'
+              annotations:
+                slug: cobaltcore
+                project_org: https://github.com/cobaltcore-dev
+              dev_stats_url: https://insights.linuxfoundation.org/project/cobaltcore
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobaltcore
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf66V8CCBTijsFZ7AI
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cobaltcore/cobaltcore_Charter.pdf?v=1763511319012
+            additional_repos:
+              - repo_url: https://github.com/cobaltcore-dev/cortex
+              - repo_url: https://github.com/cobaltcore-dev/steering
+              - repo_url: https://github.com/cobaltcore-dev/aurora-dashboard
+          - item:
+            name: Gardener
+            homepage_url: https://gardener.cloud/
+            logo: gardener.svg
+            description: The mission of the Project is to provide homogeneous Kubernetes clusters at scale on any infrastructure using hosted control planes.
+            repo_url: https://github.com/gardener/gardener
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2025-11-18'
+              annotations:
+                slug: gardener
+                project_org: https://github.com/gardener
+              dev_stats_url: https://insights.linuxfoundation.org/project/gardener
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gardener
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf6ewSmFRM2jaDYlmB
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gardener/gardener_Charter.pdf?v=1763510989994
+            additional_repos:
+              - repo_url: https://github.com/gardener/machine-controller-manager
+              - repo_url: https://github.com/gardener/etcd-druid
+              - repo_url: https://github.com/gardener/etcd-backup-restore
+              - repo_url: https://github.com/gardener/dashboard
+              - repo_url: https://github.com/gardener/autoscaler
+          - item:
             name: Greenhouse
             homepage_url: https://cloudoperators.github.io/greenhouse/
             logo: greenhouse.svg
             description: Greenhouse is a comprehensive platform designed to address the challenges of operating large-scale cloud infrastructures. It offers a holistic dashboard and API to manage various operational aspects efficiently and transparently. Moreover, it enables operations of a globally distributed cloud infrastructure in compliance with industry standards. The platform addresses common operational challenges such as the complexity of tools, fragmentation of configuration, visibility and permission management. Several plugins extend the core platform, providing cloud-native observability, security & compliance tooling and more. These plugins come with sane default configurations and include all necessary components for application-specific needs such as production-proven alerts, playbooks, metric visualization dashboards.
-            second_path:
-              - Management / Management
             repo_url: https://github.com/cloudoperators/greenhouse
-            additional_repos:
-              - repo_url: https://github.com/cloudoperators/greenhouse-extensions
-              - repo_url: https://github.com/cloudoperators/juno
-              - repo_url: https://github.com/cloudoperators/heureka
-              - repo_url: https://github.com/cloudoperators/steering
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-04-06'
@@ -267,20 +310,17 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfOR02rCuEhDDjajJL
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/greenhouse/greenhouse_Charter.pdf?v=1761933677450
+            additional_repos:
+              - repo_url: https://github.com/cloudoperators/greenhouse-extensions
+              - repo_url: https://github.com/cloudoperators/juno
+              - repo_url: https://github.com/cloudoperators/heureka
+              - repo_url: https://github.com/cloudoperators/steering
           - item:
             name: IronCore
             homepage_url: https://ironcore-dev.github.io/ironcore/
             logo: ironcore.svg
             description: IronCore provides the new reference for compounded software layers for inventorying, managing, and maintaining Baremetal using Kubernetes’ cloud-native principles. Kubernetes, originally designed to manage and orchestrate containerized applications and microservices, has significantly expanded its reach through its inherent API extensibility, allowing it to be adapted to a wide range of use cases entirely outside the realm of containers. IronCore takes a modern spin with Kubernetes, offering a single interface for managing resources orchestrated across regions, data centers, and availability zones. All assembled with the identical blueprint, thereby offering unmatched flexibility, scalability, and ease of use. Unlike traditional infrastructure solutions, IronCore delivers a much sought, fresh, next generation approach. As a default, Ceph is modularly provided as a cloud-natively automated, vendor-neutral storage backend for block, shared, and object storage. Furthermore, a disruptive network fabric based on CLOS Topology is included. The software defined network data plane materializes through routed layer 3 only, using an IPv6 overlay, and is grounded on the robust, standard experience of the established internet architecture and technology.
-            second_path:
-              - Virtualization / Virtualization
             repo_url: https://github.com/ironcore-dev/ironcore
-            additional_repos:
-              - repo_url: https://github.com/ironcore-dev/ironcore-net
-              - repo_url: https://github.com/ironcore-dev/ceph-provider
-              - repo_url: https://github.com/ironcore-dev/libvirt-provider
-              - repo_url: https://github.com/ironcore-dev/dpservice
-              - repo_url: https://github.com/ironcore-dev/metal-operator
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
@@ -295,13 +335,92 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdpQVHdB0pX7liH2V
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/ironcore/ironcore_Charter.pdf?v=1761932939494
+            additional_repos:
+              - repo_url: https://github.com/ironcore-dev/ironcore-net
+              - repo_url: https://github.com/ironcore-dev/ceph-provider
+              - repo_url: https://github.com/ironcore-dev/libvirt-provider
+              - repo_url: https://github.com/ironcore-dev/dpservice
+              - repo_url: https://github.com/ironcore-dev/metal-operator
+          - item:
+            name: Luigi
+            homepage_url: https://luigi-project.io/
+            logo: luigi.svg
+            description: |-
+              Luigi was first introduced as an open source project in 2018, together with kyma.
+              Key features include:
+              Modular architecture: Breaks down monolithic apps into smaller, manageable UI modules.
+              Extensibility: Easily integrates external UI components.
+              Scalability: Supports distributed development across multiple teams.
+              Technology agnostic: Works with any frontend technology, avoiding vendor lock-in.
+            repo_url: https://github.com/luigi-project/luigi
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2025-12-02'
+              annotations:
+                slug: luigi
+                project_org: https://github.com/luigi-project
+              dev_stats_url: https://insights.linuxfoundation.org/project/luigi
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/luigi
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lforSI35bwcB7b0ho1
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/luigi/luigi_Charter.pdf?v=1764684321725
+            additional_repos: []
+          - item:
+            name: Open Crypto Broker
+            homepage_url: https://github.com/open-crypto-broker/
+            logo: open_crypto_broker.svg
+            description: |-
+              Open Crypto Broker (OCB) introduces an abstraction layer where cryptographic operations are defined through configurable profiles rather than being hardcoded into applications. Instead of applications handling their own cryptographic functions, they can rely on OCB to manage these tasks. This separation of concerns enables organizations to meet new security requirements, such as compliance with FIPS 140 or the transition to Post-Quantum Cryptography, without needing to modify the underlying applications.
+
+              *** Note - please create under LF Europe
+            repo_url: https://github.com/open-crypto-broker/crypto-broker-documentation
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2025-12-02'
+              annotations:
+                slug: open-crypto-broker
+                project_org: https://github.com/open-crypto-broker
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-crypto-broker
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-crypto-broker
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfpSIlrS0guboGTaRG
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-crypto-broker/open-crypto-broker_Charter.pdf?v=1764683894026
+            additional_repos: []
+          - item:
+            name: Open Key Chain Manager (openKCM)
+            homepage_url: https://github.com/openkcm
+            logo: open_key_chain_manager_openkcm.svg
+            description: |-
+              Centralized key management solution to govern customer encryption keys (Level 1 keys), with BYOK (Bring Your Own Key) and HYOK (Hold Your Own Key) capabilities.
+
+              ** Note - create under LF Europe
+            repo_url: https://github.com/openkcm/orbital
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2025-12-02'
+              annotations:
+                slug: open-key-chain-manager
+                project_org: https://github.com/openkcm
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-key-chain-manager
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-key-chain-manager
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf6RrWwbl31D92u3Jc
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-key-chain-manager/open-key-chain-manager_Charter.pdf?v=1764684098991
+            additional_repos: []
           - item:
             name: Open Managed Control Plane (openMCP)
             homepage_url: https://github.com/openmcp-project
             logo: open_managed_control_plane_openmcp.svg
             description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
-            second_path:
-              - Service Orchestration / Service Orchestration
             repo_url: https://github.com/openmcp-project/metrics-operator
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -323,13 +442,7 @@ categories:
             homepage_url: https://openmfp.org/
             logo: open_micro_frontend_platform.svg
             description: Open Micro Frontend Platform realizes the concepts of the Platform Mesh providing a platform foundation including Account Models, Security Services and a Kubernetes Control Plane consumable by API and a Micro Frontend based Portal experience.
-            second_path:
-              - Application / Application
             repo_url: https://github.com/openmfp/openmfp.org
-            additional_repos:
-              - repo_url: https://github.com/openmfp/community
-              - repo_url: https://github.com/openmfp/portal-server-lib
-              - repo_url: https://github.com/openmfp/portal-ui-lib
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
@@ -344,13 +457,15 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfJH9to3ssdhCbc0br
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-micro-frontend-platform/open-micro-frontend-platform_Charter.pdf?v=1761933564339
+            additional_repos:
+              - repo_url: https://github.com/openmfp/community
+              - repo_url: https://github.com/openmfp/portal-server-lib
+              - repo_url: https://github.com/openmfp/portal-ui-lib
           - item:
             name: Platform Mesh
             homepage_url: https://documentation.apeirora.eu/platform-mesh
             logo: platform_mesh.svg
             description: Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. It enables a standardized concept for Services coming from Managed Service Providers through the Kubernetes API thereby  allowing developers and admins to discover, access, and order services from various sources through their beloved kubectl.
-            second_path:
-              - Federation / Federation
             repo_url: https://github.com/platform-mesh/kubernetes-graphql-gateway
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -366,5 +481,4 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfSyWalrMmArSAt6Co
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/platform-mesh/platform-mesh_Charter.pdf?v=1761931750006
-              summary_integration: Open Micro Frontend Platform, Gardener
             additional_repos: []
