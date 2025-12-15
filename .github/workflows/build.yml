@@ -16,6 +16,7 @@ jobs:
       - uses: jmertic/lfx-landscape-tools@main
         with:
           project_processing: rebuild
+          datafile: data.yml
         env:
           token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
