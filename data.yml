@@ -466,7 +466,7 @@ categories:
             homepage_url: https://documentation.apeirora.eu/platform-mesh
             logo: platform_mesh.svg
             description: Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. It enables a standardized concept for Services coming from Managed Service Providers through the Kubernetes API thereby  allowing developers and admins to discover, access, and order services from various sources through their beloved kubectl.
-            repo_url: https://github.com/platform-mesh/kubernetes-graphql-gateway
+            repo_url: https://github.com/platform-mesh/helm-charts
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
