@@ -86,6 +86,17 @@ categories:
         name: Premier
         items:
           - item:
+            name: BWI GmbH (member)
+            homepage_url: https://bwi.de/
+            logo: bwi_gmbh.svg
+            description: Wir sorgen für die digitale Zukunftsfähigkeit unseres Landes
+            twitter: https://twitter.com/BWI_IT
+            organization:
+              name: BWI GmbH
+              linkedin: https://www.linkedin.com/company/bwi-gmbh
+            extra:
+              linkedin_url: https://www.linkedin.com/company/bwi-gmbh
+          - item:
             name: SAP SE (member)
             homepage_url: https://sap.com/
             logo: sap_se.svg
@@ -203,6 +214,15 @@ categories:
             twitter: https://twitter.com/PlusServer
             extra:
               linkedin_url: https://www.linkedin.com/company/plusserver
+          - item:
+            name: SUSE LLC (member)
+            homepage_url: https://suse.com/
+            logo: suse_llc.svg
+            description: SUSE provides businesses with software solutions. Some solutions they offer include data analytics, cloud management, infrastructure facilitation, and more.
+            crunchbase: https://www.crunchbase.com/organization/suse
+            twitter: https://twitter.com/SUSE
+            extra:
+              linkedin_url: https://www.linkedin.com/company/attachmate
           - item:
             name: x-cellent technologies GmbH (member)
             homepage_url: https://x-cellent.com/
