@@ -270,10 +270,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-11-18'
-              annotations:
-                slug: cobaltcore
-                project_org: https://github.com/cobaltcore-dev
               dev_stats_url: https://insights.linuxfoundation.org/project/cobaltcore
+              lfx_slug: cobaltcore
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobaltcore
@@ -281,6 +279,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf66V8CCBTijsFZ7AI
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cobaltcore/cobaltcore_Charter.pdf?v=1763511319012
+              annotations:
+                project_org: https://github.com/cobaltcore-dev
             additional_repos:
               - repo_url: https://github.com/cobaltcore-dev/cortex
               - repo_url: https://github.com/cobaltcore-dev/steering
@@ -295,10 +295,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-11-18'
-              annotations:
-                slug: gardener
-                project_org: https://github.com/gardener
               dev_stats_url: https://insights.linuxfoundation.org/project/gardener
+              lfx_slug: gardener
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gardener
@@ -306,6 +304,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf6ewSmFRM2jaDYlmB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gardener/gardener_Charter.pdf?v=1763510989994
+              annotations:
+                project_org: https://github.com/gardener
             additional_repos:
               - repo_url: https://github.com/gardener/machine-controller-manager
               - repo_url: https://github.com/gardener/etcd-druid
@@ -322,10 +322,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-04-06'
-              annotations:
-                slug: greenhouse
-                project_org: https://github.com/cloudoperators
               dev_stats_url: https://insights.linuxfoundation.org/project/greenhouse
+              lfx_slug: greenhouse
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/greenhouse
@@ -333,6 +331,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfOR02rCuEhDDjajJL
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/greenhouse/greenhouse_Charter.pdf?v=1761933677450
+              annotations:
+                project_org: https://github.com/cloudoperators
             additional_repos:
               - repo_url: https://github.com/cloudoperators/greenhouse-extensions
               - repo_url: https://github.com/cloudoperators/juno
@@ -348,10 +348,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
-              annotations:
-                slug: ironcore
-                project_org: https://github.com/ironcore-dev
               dev_stats_url: https://insights.linuxfoundation.org/project/ironcore
+              lfx_slug: ironcore
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ironcore
@@ -359,6 +357,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdpQVHdB0pX7liH2V
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/ironcore/ironcore_Charter.pdf?v=1761932939494
+              annotations:
+                project_org: https://github.com/ironcore-dev
             additional_repos:
               - repo_url: https://github.com/ironcore-dev/ironcore-net
               - repo_url: https://github.com/ironcore-dev/ceph-provider
@@ -381,10 +381,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-12-02'
-              annotations:
-                slug: luigi
-                project_org: https://github.com/luigi-project
               dev_stats_url: https://insights.linuxfoundation.org/project/luigi
+              lfx_slug: luigi
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/luigi
@@ -392,6 +390,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lforSI35bwcB7b0ho1
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/luigi/luigi_Charter.pdf?v=1764684321725
+              annotations:
+                project_org: https://github.com/luigi-project
             additional_repos: []
           - item:
             name: Open Crypto Broker
@@ -406,10 +406,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-12-02'
-              annotations:
-                slug: open-crypto-broker
-                project_org: https://github.com/open-crypto-broker
               dev_stats_url: https://insights.linuxfoundation.org/project/open-crypto-broker
+              lfx_slug: open-crypto-broker
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-crypto-broker
@@ -417,6 +415,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfpSIlrS0guboGTaRG
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-crypto-broker/open-crypto-broker_Charter.pdf?v=1764683894026
+              annotations:
+                project_org: https://github.com/open-crypto-broker
             additional_repos: []
           - item:
             name: Open Key Chain Manager (openKCM)
@@ -431,10 +431,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-12-02'
-              annotations:
-                slug: open-key-chain-manager
-                project_org: https://github.com/openkcm
               dev_stats_url: https://insights.linuxfoundation.org/project/open-key-chain-manager
+              lfx_slug: open-key-chain-manager
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-key-chain-manager
@@ -442,6 +440,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf6RrWwbl31D92u3Jc
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-key-chain-manager/open-key-chain-manager_Charter.pdf?v=1764684098991
+              annotations:
+                project_org: https://github.com/openkcm
             additional_repos: []
           - item:
             name: Open Managed Control Plane (openMCP)
@@ -453,10 +453,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-06-03'
-              annotations:
-                slug: open-managed-control-planes
-                project_org: https://github.com/openmcp-project
               dev_stats_url: https://insights.linuxfoundation.org/project/open-managed-control-planes
+              lfx_slug: open-managed-control-planes
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-managed-control-planes
@@ -464,6 +462,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-managed-control-planes/open-managed-control-planes_Charter.pdf?v=1761932500440
+              annotations:
+                project_org: https://github.com/openmcp-project
             additional_repos: []
           - item:
             name: Open Micro Frontend Platform
@@ -475,10 +475,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
-              annotations:
-                slug: open-micro-frontend-platform
-                project_org: https://github.com/openmfp
               dev_stats_url: https://insights.linuxfoundation.org/project/open-micro-frontend-platform
+              lfx_slug: open-micro-frontend-platform
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-micro-frontend-platform
@@ -486,6 +484,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfJH9to3ssdhCbc0br
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-micro-frontend-platform/open-micro-frontend-platform_Charter.pdf?v=1761933564339
+              annotations:
+                project_org: https://github.com/openmfp
             additional_repos:
               - repo_url: https://github.com/openmfp/community
               - repo_url: https://github.com/openmfp/portal-server-lib
@@ -500,10 +500,8 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
-              annotations:
-                slug: platform-mesh
-                project_org: https://github.com/platform-mesh
               dev_stats_url: https://insights.linuxfoundation.org/project/platform-mesh
+              lfx_slug: platform-mesh
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/platform-mesh
@@ -511,4 +509,6 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfSyWalrMmArSAt6Co
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/platform-mesh/platform-mesh_Charter.pdf?v=1761931750006
+              annotations:
+                project_org: https://github.com/platform-mesh
             additional_repos: []
