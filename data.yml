@@ -106,13 +106,13 @@ categories:
             extra:
               linkedin_url: https://www.linkedin.com/company/sap
           - item:
-            name: STACKIT GmbH & Co. KG (member)
+            name: Schwarz Digits Cloud GmbH & Co. KG (member)
             homepage_url: https://stackit.de/
-            logo: stackit_gmbh_co.svg
+            logo: schwarz_digits_cloud_gmbh_co.svg
             description: Für komplexe IT-Infrastrukturen und skalierbare Cloud-Lösungen ist STACKIT Ihr perfekter Partner. Unsere IaaS & PaaS Services erfüllen dabei zu 100% europäische DSGVO-Datenschutzstandards! Jetzt Beta-Version testen!
             twitter: https://twitter.com/stackitcloud
             organization:
-              name: STACKIT GmbH & Co. KG
+              name: Schwarz Digits Cloud GmbH & Co. KG
               linkedin: https://www.linkedin.com/company/stackit-colocation
             extra:
               linkedin_url: https://www.linkedin.com/company/stackit-colocation
