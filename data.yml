@@ -236,6 +236,15 @@ categories:
         name: Associate
         items:
           - item:
+            name: Fraunhofer-Institut für Software- und Systemtechnik ISST (member)
+            homepage_url: https://isst.fraunhofer.de/
+            logo: fraunhofer_institut_fur_software_und_systemtechnik_isst.svg
+            description: Die Fraunhofer-Gesellschaft mit Sitz in Deutschland ist die weltweit führende Organisation für anwendungsorientierte Forschung. Mit ihrer Fokussierung auf zukunftsrelevante Schlüsseltechnologien sowie auf die Verwertung der Ergebnisse in Wirtschaft und...
+            crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
+            twitter: https://twitter.com/Fraunhofer
+            extra:
+              linkedin_url: https://www.linkedin.com/company/fraunhofer-gesellschaft
+          - item:
             name: SBA Research (member)
             homepage_url: https://sba-research.org/
             logo: sba_research.svg
