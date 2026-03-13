@@ -448,7 +448,7 @@ categories:
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf6RrWwbl31D92u3Jc
                 - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-key-chain-manager/open-key-chain-manager_Charter.pdf?v=1764684098991
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-key-chain-manager/open-key-chain-manager_Charter.pdf?v=1773332568720
               annotations:
                 project_org: https://github.com/openkcm
             additional_repos: []
