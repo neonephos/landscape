@@ -403,6 +403,28 @@ categories:
                 project_org: https://github.com/luigi-project
             additional_repos: []
           - item:
+            name: Open Control Plane (openCP)
+            homepage_url: https://github.com/openmcp-project
+            logo: open_control_plane_opencp.svg
+            description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
+            repo_url: https://github.com/openmcp-project/metrics-operator
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2025-06-03'
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-managed-control-planes
+              lfx_slug: open-managed-control-planes
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-managed-control-planes
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-managed-control-planes/open-managed-control-planes_Charter.pdf?v=1773850649767
+              annotations:
+                project_org: https://github.com/openmcp-project
+            additional_repos: []
+          - item:
             name: Open Crypto Broker
             homepage_url: https://github.com/open-crypto-broker/
             logo: open_crypto_broker.svg
@@ -451,28 +473,6 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-key-chain-manager/open-key-chain-manager_Charter.pdf?v=1773332568720
               annotations:
                 project_org: https://github.com/openkcm
-            additional_repos: []
-          - item:
-            name: Open Managed Control Plane (openMCP)
-            homepage_url: https://github.com/openmcp-project
-            logo: open_managed_control_plane_openmcp.svg
-            description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
-            repo_url: https://github.com/openmcp-project/metrics-operator
-            license: Apache-2.0
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: '2025-06-03'
-              dev_stats_url: https://insights.linuxfoundation.org/project/open-managed-control-planes
-              lfx_slug: open-managed-control-planes
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-managed-control-planes
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-managed-control-planes/open-managed-control-planes_Charter.pdf?v=1761932500440
-              annotations:
-                project_org: https://github.com/openmcp-project
             additional_repos: []
           - item:
             name: Open Micro Frontend Platform
