@@ -412,11 +412,11 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-06-03'
-              dev_stats_url: https://insights.linuxfoundation.org/project/open-managed-control-planes
-              lfx_slug: open-managed-control-planes
+              dev_stats_url: https://insights.linuxfoundation.org/project/opencp
+              lfx_slug: opencp
               other_links:
                 - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-managed-control-planes
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencp
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
                 - name: Charter
