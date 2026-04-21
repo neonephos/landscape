@@ -91,9 +91,6 @@ categories:
             logo: bwi_gmbh.svg
             description: Wir sorgen für die digitale Zukunftsfähigkeit unseres Landes
             twitter: https://twitter.com/BWI_IT
-            organization:
-              name: BWI GmbH
-              linkedin: https://www.linkedin.com/company/bwi-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/bwi-gmbh
           - item:
@@ -111,9 +108,6 @@ categories:
             logo: schwarz_digits_cloud_gmbh_co.svg
             description: Für komplexe IT-Infrastrukturen und skalierbare Cloud-Lösungen ist STACKIT Ihr perfekter Partner. Unsere IaaS & PaaS Services erfüllen dabei zu 100% europäische DSGVO-Datenschutzstandards! Jetzt Beta-Version testen!
             twitter: https://twitter.com/stackitcloud
-            organization:
-              name: Schwarz Digits Cloud GmbH & Co. KG
-              linkedin: https://www.linkedin.com/company/stackit-colocation
             extra:
               linkedin_url: https://www.linkedin.com/company/stackit-colocation
           - item:
@@ -142,21 +136,13 @@ categories:
             homepage_url: https://apefactory.com/
             logo: ape_factory.svg
             description: Helps enterprises in their digital transformation by combining Cloud Native architecture, Data Engineering  and Agile Methodology.
-            organization:
-              name: ape factory
-              linkedin: https://www.linkedin.com/company/ape-factory-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/ape-factory-gmbh
           - item:
             name: CLYSO GmbH (member)
             homepage_url: https://clyso.com/
             logo: clyso_gmbh.svg
-            description: |-
-              Founded in 2010, CLYSO is a German company with headquarters in Munich, dedicated to Cloud Computing. We specialize in building highly scalable and globally distributed cloud environments, offering the deep expertise needed to design, build, deploy, and operate comprehensive solutions. Our core focus spans the IaaS, PaaS, and SaaS layers, and we actively use open-source technology to minimize risks related to IT security, licensing costs, and technical bottlenecks. Our competence is tangible through our leading role in the Ceph community. We hold key roles like Performance Lead and Executive Board Member of the Ceph Foundation, and our team includes Ceph Ambassadors for the DACH region, India, and France. With over 2,700 commits, our developers are major contributors to the Ceph codebase, proving we are co-creators of the technology, not just users.
-              We are the only Platinum member of the Ceph Foundation with a commercial support model focused on the entire Ceph ecosystem, which guarantees maximum flexibility and the right partnership for any challenge. Our employees have completed over 500 successful Ceph projects, handling a vast range of use cases. Our work is also recognized in academia; our Ceph implementation at GWDG achieved a top ranking in the renowned IO500 list, demonstrating our ability to deliver outstanding performance in the most demanding environments.
-              CLYSO is defined by its solid structure, focused drive, and service-oriented culture. With employees in Germany and in North America, we specialize almost exclusively in Ceph. Over 18 of our developers are dedicated solely to building and optimizing Ceph solutions, ensuring you partner with a team that understands the technology from the ground up. Our support model ensures you speak directly with the developers and architects who actively shape the product, minimizing friction and accelerating problem resolution. Our engagement at events like Cephalocon and Ceph Days shows our commitment to actively shaping the future of the technology. When you work with us, you work with a partner that not only stays up-to-date but also drives development. Our continuous contributions to bug fixing and code development directly benefit the stability and security of the solutions we implement.
-
-              We specialize in designing, deploying, and operating highly resilient, large-scale infrastructures across Private Cloud, Public Cloud, and Multi Cloud domains. Our engineering capabilities encompass integration of Software Defined Storage using Ceph, automated lifecycle management via Kubernetes and Openstack, and the orchestration of IaaS and PaaS platforms tailored for complex enterprise workloads. Leveraging deep expertise in Linux and OpenSource Technologies, our team applies advanced optimization, security hardening, and cost management strategies to deliver scalable, high-performance environments. By adopting infrastructure-as-code, advanced monitoring, and multi-tenant architectures, we accelerate cloud transformation projects—empowering organizations to achieve operational agility, efficiency, and future-ready cloud ecosystems.
+            description: "Founded in 2010, CLYSO is a German company with headquarters in Munich, dedicated to Cloud Computing. We specialize in building highly scalable and globally distributed cloud environments, offering the deep expertise needed to design, build, deploy, and operate comprehensive solutions. Our core focus spans the IaaS, PaaS, and SaaS layers, and we actively use open-source technology to minimize risks related to IT security, licensing costs, and technical bottlenecks. Our competence is tangible through our leading role in the Ceph community. We hold key roles like Performance Lead and Executive Board Member of the Ceph Foundation, and our team includes Ceph Ambassadors for the DACH region, India, and France. With over 2,700 commits, our developers are major contributors to the Ceph codebase, proving we are co-creators of the technology, not just users.\nWe are the only Platinum member of the Ceph Foundation with a commercial support model focused on the entire Ceph ecosystem, which guarantees maximum flexibility and the right partnership for any challenge. Our employees have completed over 500 successful Ceph projects, handling a vast range of use cases. Our work is also recognized in academia; our Ceph implementation at GWDG achieved a top ranking in the renowned IO500 list, demonstrating our ability to deliver outstanding performance in the most demanding environments.\nCLYSO is defined by its solid structure, focused drive, and service-oriented culture. With employees in Germany and in North America, we specialize almost exclusively in Ceph. Over 18 of our developers are dedicated solely to building and optimizing Ceph solutions, ensuring you partner with a team that understands the technology from the ground up. Our support model ensures you speak directly with the developers and architects who actively shape the product, minimizing friction and accelerating problem resolution. Our engagement at events like Cephalocon and Ceph Days shows our commitment to actively shaping the future of the technology. When you work with us, you work with a partner that not only stays up-to-date but also drives development. Our continuous contributions to bug fixing and code development directly benefit the stability and security of the solutions we implement.\n\nWe specialize in designing, deploying, and operating highly resilient, large-scale infrastructures across Private Cloud, Public Cloud, and Multi Cloud domains. Our engineering capabilities encompass integration of Software Defined Storage using Ceph, automated lifecycle management via Kubernetes and Openstack, and the orchestration of IaaS and PaaS platforms tailored for complex enterprise workloads. Leveraging deep expertise in Linux and OpenSource Technologies, our team applies advanced optimization, security hardening, and cost management strategies to deliver scalable, high-performance environments. By adopting infrastructure-as-code, advanced monitoring, and multi-tenant architectures, we accelerate cloud transformation projects—empowering organizations to achieve operational agility, efficiency, and future-ready cloud ecosystems."
             crunchbase: https://www.crunchbase.com/organization/clyso-gmbh
             twitter: https://twitter.com/Clyso_GmbH
             extra:
@@ -166,9 +152,6 @@ categories:
             homepage_url: https://cyberus-technology.de/
             logo: cyberus_technology.svg
             description: Cyberus Technology provides virtualization, Linux engineering, test automation, and embedded Linux services. Their flagship product, Cyberus KronoCore, ensures uninterrupted operation of legacy software on modern hardware, bridging the gap between old ...
-            organization:
-              name: Cyberus Technology
-              linkedin: https://www.linkedin.com/company/cyberus-technology
             extra:
               linkedin_url: https://www.linkedin.com/company/cyberus-technology
           - item:
@@ -203,8 +186,6 @@ categories:
             homepage_url: https://nearbycomputing.com/
             logo: nearby_computing.svg
             description: 'Nearby Computing: Revolutionizing network management with cutting-edge automation for Telcos & Enterprises.'
-            organization:
-              name: Nearby Computing
           - item:
             name: plusserver (member)
             homepage_url: https://plusserver.com/
@@ -249,9 +230,6 @@ categories:
             homepage_url: https://sba-research.org/
             logo: sba_research.svg
             description: SBA Research is a leading research center in Austria that specializes in Information Security, providing advanced research and consulting services in the field of IT security.
-            organization:
-              name: SBA Research
-              linkedin: https://www.linkedin.com/company/secure-business-austria
             extra:
               linkedin_url: https://www.linkedin.com/company/secure-business-austria
           - item:
@@ -375,16 +353,29 @@ categories:
               - repo_url: https://github.com/ironcore-dev/dpservice
               - repo_url: https://github.com/ironcore-dev/metal-operator
           - item:
+            name: Katalis
+            homepage_url: https://github.com/telekom/NeoNephos-Katalis
+            logo: katalis.svg
+            description: develop solutions to bridge Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles
+            repo_url: https://github.com/telekom/NeoNephos-Katalis
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2026-03-30'
+              dev_stats_url: https://insights.linuxfoundation.org/project/katalis
+              lfx_slug: katalis
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/katalis
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfT8I2Rgyq7mrXO2QU
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/katalis/katalis_Charter.pdf?v=1774985434219
+          - item:
             name: Luigi
             homepage_url: https://luigi-project.io/
             logo: luigi.svg
-            description: |-
-              Luigi was first introduced as an open source project in 2018, together with kyma.
-              Key features include:
-              Modular architecture: Breaks down monolithic apps into smaller, manageable UI modules.
-              Extensibility: Easily integrates external UI components.
-              Scalability: Supports distributed development across multiple teams.
-              Technology agnostic: Works with any frontend technology, avoiding vendor lock-in.
+            description: "Luigi was first introduced as an open source project in 2018, together with kyma.\nKey features include:\nModular architecture: Breaks down monolithic apps into smaller, manageable UI modules.\nExtensibility: Easily integrates external UI components.\nScalability: Supports distributed development across multiple teams.\nTechnology agnostic: Works with any frontend technology, avoiding vendor lock-in."
             repo_url: https://github.com/luigi-project/luigi
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -425,38 +416,10 @@ categories:
                 project_org: https://github.com/openmcp-project
             additional_repos: []
           - item:
-            name: Open Crypto Broker
-            homepage_url: https://github.com/open-crypto-broker/
-            logo: open_crypto_broker.svg
-            description: |-
-              Open Crypto Broker (OCB) introduces an abstraction layer where cryptographic operations are defined through configurable profiles rather than being hardcoded into applications. Instead of applications handling their own cryptographic functions, they can rely on OCB to manage these tasks. This separation of concerns enables organizations to meet new security requirements, such as compliance with FIPS 140 or the transition to Post-Quantum Cryptography, without needing to modify the underlying applications.
-
-              *** Note - please create under LF Europe
-            repo_url: https://github.com/open-crypto-broker/crypto-broker-documentation
-            license: Apache-2.0
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: '2025-12-02'
-              dev_stats_url: https://insights.linuxfoundation.org/project/open-crypto-broker
-              lfx_slug: open-crypto-broker
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-crypto-broker
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfpSIlrS0guboGTaRG
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-crypto-broker/open-crypto-broker_Charter.pdf?v=1764683894026
-              annotations:
-                project_org: https://github.com/open-crypto-broker
-            additional_repos: []
-          - item:
             name: Open Key Chain Manager (openKCM)
             homepage_url: https://github.com/openkcm
             logo: open_key_chain_manager_openkcm.svg
-            description: |-
-              Centralized key management solution to govern customer encryption keys (Level 1 keys), with BYOK (Bring Your Own Key) and HYOK (Hold Your Own Key) capabilities.
-
-              ** Note - create under LF Europe
+            description: "Centralized key management solution to govern customer encryption keys (Level 1 keys), with BYOK (Bring Your Own Key) and HYOK (Hold Your Own Key) capabilities.\n\n** Note - create under LF Europe"
             repo_url: https://github.com/openkcm/orbital
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
