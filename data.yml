@@ -91,9 +91,6 @@ categories:
             logo: bwi_gmbh.svg
             description: Wir sorgen für die digitale Zukunftsfähigkeit unseres Landes
             twitter: https://twitter.com/BWI_IT
-            organization:
-              name: BWI GmbH
-              linkedin: https://www.linkedin.com/company/bwi-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/bwi-gmbh
           - item:
@@ -111,9 +108,6 @@ categories:
             logo: schwarz_digits_cloud_gmbh_co.svg
             description: Für komplexe IT-Infrastrukturen und skalierbare Cloud-Lösungen ist STACKIT Ihr perfekter Partner. Unsere IaaS & PaaS Services erfüllen dabei zu 100% europäische DSGVO-Datenschutzstandards! Jetzt Beta-Version testen!
             twitter: https://twitter.com/stackitcloud
-            organization:
-              name: Schwarz Digits Cloud GmbH & Co. KG
-              linkedin: https://www.linkedin.com/company/stackit-colocation
             extra:
               linkedin_url: https://www.linkedin.com/company/stackit-colocation
           - item:
@@ -142,11 +136,16 @@ categories:
             homepage_url: https://apefactory.com/
             logo: ape_factory.svg
             description: Helps enterprises in their digital transformation by combining Cloud Native architecture, Data Engineering  and Agile Methodology.
-            organization:
-              name: ape factory
-              linkedin: https://www.linkedin.com/company/ape-factory-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/ape-factory-gmbh
+          - item:
+            name: Cloudogu GmbH (member)
+            homepage_url: https://cloudogu.com/
+            logo: cloudogu_gmbh.svg
+            description: Open source software development infrastructure
+            twitter: https://twitter.com/cloudogu
+            extra:
+              linkedin_url: https://www.linkedin.com/company/cloudogu
           - item:
             name: CLYSO GmbH (member)
             homepage_url: https://clyso.com/
@@ -166,9 +165,6 @@ categories:
             homepage_url: https://cyberus-technology.de/
             logo: cyberus_technology.svg
             description: Cyberus Technology provides virtualization, Linux engineering, test automation, and embedded Linux services. Their flagship product, Cyberus KronoCore, ensures uninterrupted operation of legacy software on modern hardware, bridging the gap between old ...
-            organization:
-              name: Cyberus Technology
-              linkedin: https://www.linkedin.com/company/cyberus-technology
             extra:
               linkedin_url: https://www.linkedin.com/company/cyberus-technology
           - item:
@@ -203,8 +199,6 @@ categories:
             homepage_url: https://nearbycomputing.com/
             logo: nearby_computing.svg
             description: 'Nearby Computing: Revolutionizing network management with cutting-edge automation for Telcos & Enterprises.'
-            organization:
-              name: Nearby Computing
           - item:
             name: plusserver (member)
             homepage_url: https://plusserver.com/
@@ -249,9 +243,6 @@ categories:
             homepage_url: https://sba-research.org/
             logo: sba_research.svg
             description: SBA Research is a leading research center in Austria that specializes in Information Security, providing advanced research and consulting services in the field of IT security.
-            organization:
-              name: SBA Research
-              linkedin: https://www.linkedin.com/company/secure-business-austria
             extra:
               linkedin_url: https://www.linkedin.com/company/secure-business-austria
           - item:
@@ -375,6 +366,25 @@ categories:
               - repo_url: https://github.com/ironcore-dev/dpservice
               - repo_url: https://github.com/ironcore-dev/metal-operator
           - item:
+            name: Katalis
+            homepage_url: https://github.com/telekom/NeoNephos-Katalis
+            logo: katalis.svg
+            description: develop solutions to bridge Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles
+            repo_url: https://github.com/telekom/NeoNephos-Katalis
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2026-03-30'
+              dev_stats_url: https://insights.linuxfoundation.org/project/katalis
+              lfx_slug: katalis
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/katalis
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfT8I2Rgyq7mrXO2QU
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/katalis/katalis_Charter.pdf?v=1774985434219
+          - item:
             name: Luigi
             homepage_url: https://luigi-project.io/
             logo: luigi.svg
@@ -403,9 +413,9 @@ categories:
                 project_org: https://github.com/luigi-project
             additional_repos: []
           - item:
-            name: Open Control Plane (openCP)
+            name: OpenControlPlane
             homepage_url: https://github.com/openmcp-project
-            logo: open_control_plane_opencp.svg
+            logo: opencontrolplane.svg
             description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
             repo_url: https://github.com/openmcp-project/metrics-operator
             license: Apache-2.0
@@ -420,34 +430,9 @@ categories:
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
                 - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-managed-control-planes/open-managed-control-planes_Charter.pdf?v=1773850649767
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencp/opencp_Charter.pdf?v=1777662944841
               annotations:
                 project_org: https://github.com/openmcp-project
-            additional_repos: []
-          - item:
-            name: Open Crypto Broker
-            homepage_url: https://github.com/open-crypto-broker/
-            logo: open_crypto_broker.svg
-            description: |-
-              Open Crypto Broker (OCB) introduces an abstraction layer where cryptographic operations are defined through configurable profiles rather than being hardcoded into applications. Instead of applications handling their own cryptographic functions, they can rely on OCB to manage these tasks. This separation of concerns enables organizations to meet new security requirements, such as compliance with FIPS 140 or the transition to Post-Quantum Cryptography, without needing to modify the underlying applications.
-
-              *** Note - please create under LF Europe
-            repo_url: https://github.com/open-crypto-broker/crypto-broker-documentation
-            license: Apache-2.0
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: '2025-12-02'
-              dev_stats_url: https://insights.linuxfoundation.org/project/open-crypto-broker
-              lfx_slug: open-crypto-broker
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-crypto-broker
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfpSIlrS0guboGTaRG
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-crypto-broker/open-crypto-broker_Charter.pdf?v=1764683894026
-              annotations:
-                project_org: https://github.com/open-crypto-broker
             additional_repos: []
           - item:
             name: Open Key Chain Manager (openKCM)
