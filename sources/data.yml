@@ -86,6 +86,14 @@ categories:
         name: Premier
         items:
           - item:
+            name: BWI GmbH (member)
+            homepage_url: https://bwi.de/
+            logo: bwi_gmbh.svg
+            description: Wir sorgen für die digitale Zukunftsfähigkeit unseres Landes
+            twitter: https://twitter.com/BWI_IT
+            extra:
+              linkedin_url: https://www.linkedin.com/company/bwi-gmbh
+          - item:
             name: SAP SE (member)
             homepage_url: https://sap.com/
             logo: sap_se.svg
@@ -95,14 +103,11 @@ categories:
             extra:
               linkedin_url: https://www.linkedin.com/company/sap
           - item:
-            name: STACKIT GmbH & Co. KG (member)
+            name: Schwarz Digits Cloud GmbH & Co. KG (member)
             homepage_url: https://stackit.de/
-            logo: stackit_gmbh_co.svg
+            logo: schwarz_digits_cloud_gmbh_co.svg
             description: Für komplexe IT-Infrastrukturen und skalierbare Cloud-Lösungen ist STACKIT Ihr perfekter Partner. Unsere IaaS & PaaS Services erfüllen dabei zu 100% europäische DSGVO-Datenschutzstandards! Jetzt Beta-Version testen!
             twitter: https://twitter.com/stackitcloud
-            organization:
-              name: STACKIT GmbH & Co. KG
-              linkedin: https://www.linkedin.com/company/stackit-colocation
             extra:
               linkedin_url: https://www.linkedin.com/company/stackit-colocation
           - item:
@@ -131,11 +136,16 @@ categories:
             homepage_url: https://apefactory.com/
             logo: ape_factory.svg
             description: Helps enterprises in their digital transformation by combining Cloud Native architecture, Data Engineering  and Agile Methodology.
-            organization:
-              name: ape factory
-              linkedin: https://www.linkedin.com/company/ape-factory-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/ape-factory-gmbh
+          - item:
+            name: Cloudogu GmbH (member)
+            homepage_url: https://cloudogu.com/
+            logo: cloudogu_gmbh.svg
+            description: Open source software development infrastructure
+            twitter: https://twitter.com/cloudogu
+            extra:
+              linkedin_url: https://www.linkedin.com/company/cloudogu
           - item:
             name: CLYSO GmbH (member)
             homepage_url: https://clyso.com/
@@ -143,7 +153,7 @@ categories:
             description: |-
               Founded in 2010, CLYSO is a German company with headquarters in Munich, dedicated to Cloud Computing. We specialize in building highly scalable and globally distributed cloud environments, offering the deep expertise needed to design, build, deploy, and operate comprehensive solutions. Our core focus spans the IaaS, PaaS, and SaaS layers, and we actively use open-source technology to minimize risks related to IT security, licensing costs, and technical bottlenecks. Our competence is tangible through our leading role in the Ceph community. We hold key roles like Performance Lead and Executive Board Member of the Ceph Foundation, and our team includes Ceph Ambassadors for the DACH region, India, and France. With over 2,700 commits, our developers are major contributors to the Ceph codebase, proving we are co-creators of the technology, not just users.
               We are the only Platinum member of the Ceph Foundation with a commercial support model focused on the entire Ceph ecosystem, which guarantees maximum flexibility and the right partnership for any challenge. Our employees have completed over 500 successful Ceph projects, handling a vast range of use cases. Our work is also recognized in academia; our Ceph implementation at GWDG achieved a top ranking in the renowned IO500 list, demonstrating our ability to deliver outstanding performance in the most demanding environments.
-              CLYSO is defined by its solid structure, focused drive, and service-oriented culture. With 39 employees in Germany and 8 in North America, we specialize almost exclusively in Ceph. Over 18 of our developers are dedicated solely to building and optimizing Ceph solutions, ensuring you partner with a team that understands the technology from the ground up. Our support model ensures you speak directly with the developers and architects who actively shape the product, minimizing friction and accelerating problem resolution. Our engagement at events like Cephalocon and Ceph Days shows our commitment to actively shaping the future of the technology. When you work with us, you work with a partner that not only stays up-to-date but also drives development. Our continuous contributions to bug fixing and code development directly benefit the stability and security of the solutions we implement.
+              CLYSO is defined by its solid structure, focused drive, and service-oriented culture. With employees in Germany and in North America, we specialize almost exclusively in Ceph. Over 18 of our developers are dedicated solely to building and optimizing Ceph solutions, ensuring you partner with a team that understands the technology from the ground up. Our support model ensures you speak directly with the developers and architects who actively shape the product, minimizing friction and accelerating problem resolution. Our engagement at events like Cephalocon and Ceph Days shows our commitment to actively shaping the future of the technology. When you work with us, you work with a partner that not only stays up-to-date but also drives development. Our continuous contributions to bug fixing and code development directly benefit the stability and security of the solutions we implement.
 
               We specialize in designing, deploying, and operating highly resilient, large-scale infrastructures across Private Cloud, Public Cloud, and Multi Cloud domains. Our engineering capabilities encompass integration of Software Defined Storage using Ceph, automated lifecycle management via Kubernetes and Openstack, and the orchestration of IaaS and PaaS platforms tailored for complex enterprise workloads. Leveraging deep expertise in Linux and OpenSource Technologies, our team applies advanced optimization, security hardening, and cost management strategies to deliver scalable, high-performance environments. By adopting infrastructure-as-code, advanced monitoring, and multi-tenant architectures, we accelerate cloud transformation projects—empowering organizations to achieve operational agility, efficiency, and future-ready cloud ecosystems.
             crunchbase: https://www.crunchbase.com/organization/clyso-gmbh
@@ -155,9 +165,6 @@ categories:
             homepage_url: https://cyberus-technology.de/
             logo: cyberus_technology.svg
             description: Cyberus Technology provides virtualization, Linux engineering, test automation, and embedded Linux services. Their flagship product, Cyberus KronoCore, ensures uninterrupted operation of legacy software on modern hardware, bridging the gap between old ...
-            organization:
-              name: Cyberus Technology
-              linkedin: https://www.linkedin.com/company/cyberus-technology
             extra:
               linkedin_url: https://www.linkedin.com/company/cyberus-technology
           - item:
@@ -173,7 +180,7 @@ categories:
             name: Kubermatic GmbH (member)
             homepage_url: https://kubermatic.com/
             logo: kubermatic_gmbh.svg
-            description: As the Top 5 corporate committer to the Kubernetes Project in 2019, Kubermatic develops Kubermatic Kubernetes Platform to accelerate the cloud native transformation. Leading enterprises including Lufthansa, Bosch, Siemens, and T-Systems trust Kubermatic on their cloud native journey. Contact us
+            description: As the Top 5 corporate committer to the Kubernetes Project in 2019, Kubermatic develops Kubermatic Kubernetes Platform to accelerate the cloud native transformation. Leading enterprises including Lufthansa, Bosch, Siemens, and T-Systems trust Kubermatic on their cloud native journey. Contact us.
             crunchbase: https://www.crunchbase.com/organization/loodse-gmbh
             twitter: https://twitter.com/Kubermatic
             extra:
@@ -192,8 +199,6 @@ categories:
             homepage_url: https://nearbycomputing.com/
             logo: nearby_computing.svg
             description: 'Nearby Computing: Revolutionizing network management with cutting-edge automation for Telcos & Enterprises.'
-            organization:
-              name: Nearby Computing
           - item:
             name: plusserver (member)
             homepage_url: https://plusserver.com/
@@ -203,6 +208,15 @@ categories:
             twitter: https://twitter.com/PlusServer
             extra:
               linkedin_url: https://www.linkedin.com/company/plusserver
+          - item:
+            name: SUSE LLC (member)
+            homepage_url: https://suse.com/
+            logo: suse_llc.svg
+            description: SUSE provides businesses with software solutions. Some solutions they offer include data analytics, cloud management, infrastructure facilitation, and more.
+            crunchbase: https://www.crunchbase.com/organization/suse
+            twitter: https://twitter.com/SUSE
+            extra:
+              linkedin_url: https://www.linkedin.com/company/attachmate
           - item:
             name: x-cellent technologies GmbH (member)
             homepage_url: https://x-cellent.com/
@@ -216,13 +230,19 @@ categories:
         name: Associate
         items:
           - item:
+            name: Fraunhofer-Institut für Software- und Systemtechnik ISST (member)
+            homepage_url: https://isst.fraunhofer.de/
+            logo: fraunhofer_institut_fur_software_und_systemtechnik_isst.svg
+            description: Die Fraunhofer-Gesellschaft mit Sitz in Deutschland ist die weltweit führende Organisation für anwendungsorientierte Forschung. Mit ihrer Fokussierung auf zukunftsrelevante Schlüsseltechnologien sowie auf die Verwertung der Ergebnisse in Wirtschaft und...
+            crunchbase: https://www.crunchbase.com/organization/fraunhofer-gesellschaft
+            twitter: https://twitter.com/Fraunhofer
+            extra:
+              linkedin_url: https://www.linkedin.com/company/fraunhofer-gesellschaft
+          - item:
             name: SBA Research (member)
             homepage_url: https://sba-research.org/
             logo: sba_research.svg
             description: SBA Research is a leading research center in Austria that specializes in Information Security, providing advanced research and consulting services in the field of IT security.
-            organization:
-              name: SBA Research
-              linkedin: https://www.linkedin.com/company/secure-business-austria
             extra:
               linkedin_url: https://www.linkedin.com/company/secure-business-austria
           - item:
@@ -246,13 +266,12 @@ categories:
             logo: cobaltcore.svg
             description: The mission of the Project is to provide a reimagined, opinionated, and Kubernetes enabled OpenStack distribution, fully embedded with other cloud components.
             repo_url: https://github.com/cobaltcore-dev/gardenlinux
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-11-18'
-              annotations:
-                slug: cobaltcore
-                project_org: https://github.com/cobaltcore-dev
               dev_stats_url: https://insights.linuxfoundation.org/project/cobaltcore
+              lfx_slug: cobaltcore
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/cobaltcore
@@ -260,6 +279,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf66V8CCBTijsFZ7AI
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cobaltcore/cobaltcore_Charter.pdf?v=1763511319012
+              annotations:
+                project_org: https://github.com/cobaltcore-dev
             additional_repos:
               - repo_url: https://github.com/cobaltcore-dev/cortex
               - repo_url: https://github.com/cobaltcore-dev/steering
@@ -270,13 +291,12 @@ categories:
             logo: gardener.svg
             description: The mission of the Project is to provide homogeneous Kubernetes clusters at scale on any infrastructure using hosted control planes.
             repo_url: https://github.com/gardener/gardener
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-11-18'
-              annotations:
-                slug: gardener
-                project_org: https://github.com/gardener
               dev_stats_url: https://insights.linuxfoundation.org/project/gardener
+              lfx_slug: gardener
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/gardener
@@ -284,6 +304,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf6ewSmFRM2jaDYlmB
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gardener/gardener_Charter.pdf?v=1763510989994
+              annotations:
+                project_org: https://github.com/gardener
             additional_repos:
               - repo_url: https://github.com/gardener/machine-controller-manager
               - repo_url: https://github.com/gardener/etcd-druid
@@ -296,13 +318,12 @@ categories:
             logo: greenhouse.svg
             description: Greenhouse is a comprehensive platform designed to address the challenges of operating large-scale cloud infrastructures. It offers a holistic dashboard and API to manage various operational aspects efficiently and transparently. Moreover, it enables operations of a globally distributed cloud infrastructure in compliance with industry standards. The platform addresses common operational challenges such as the complexity of tools, fragmentation of configuration, visibility and permission management. Several plugins extend the core platform, providing cloud-native observability, security & compliance tooling and more. These plugins come with sane default configurations and include all necessary components for application-specific needs such as production-proven alerts, playbooks, metric visualization dashboards.
             repo_url: https://github.com/cloudoperators/greenhouse
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-04-06'
-              annotations:
-                slug: greenhouse
-                project_org: https://github.com/cloudoperators
               dev_stats_url: https://insights.linuxfoundation.org/project/greenhouse
+              lfx_slug: greenhouse
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/greenhouse
@@ -310,6 +331,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfOR02rCuEhDDjajJL
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/greenhouse/greenhouse_Charter.pdf?v=1761933677450
+              annotations:
+                project_org: https://github.com/cloudoperators
             additional_repos:
               - repo_url: https://github.com/cloudoperators/greenhouse-extensions
               - repo_url: https://github.com/cloudoperators/juno
@@ -321,13 +344,12 @@ categories:
             logo: ironcore.svg
             description: IronCore provides the new reference for compounded software layers for inventorying, managing, and maintaining Baremetal using Kubernetes’ cloud-native principles. Kubernetes, originally designed to manage and orchestrate containerized applications and microservices, has significantly expanded its reach through its inherent API extensibility, allowing it to be adapted to a wide range of use cases entirely outside the realm of containers. IronCore takes a modern spin with Kubernetes, offering a single interface for managing resources orchestrated across regions, data centers, and availability zones. All assembled with the identical blueprint, thereby offering unmatched flexibility, scalability, and ease of use. Unlike traditional infrastructure solutions, IronCore delivers a much sought, fresh, next generation approach. As a default, Ceph is modularly provided as a cloud-natively automated, vendor-neutral storage backend for block, shared, and object storage. Furthermore, a disruptive network fabric based on CLOS Topology is included. The software defined network data plane materializes through routed layer 3 only, using an IPv6 overlay, and is grounded on the robust, standard experience of the established internet architecture and technology.
             repo_url: https://github.com/ironcore-dev/ironcore
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
-              annotations:
-                slug: ironcore
-                project_org: https://github.com/ironcore-dev
               dev_stats_url: https://insights.linuxfoundation.org/project/ironcore
+              lfx_slug: ironcore
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/ironcore
@@ -335,6 +357,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdpQVHdB0pX7liH2V
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/ironcore/ironcore_Charter.pdf?v=1761932939494
+              annotations:
+                project_org: https://github.com/ironcore-dev
             additional_repos:
               - repo_url: https://github.com/ironcore-dev/ironcore-net
               - repo_url: https://github.com/ironcore-dev/ceph-provider
@@ -353,13 +377,12 @@ categories:
               Scalability: Supports distributed development across multiple teams.
               Technology agnostic: Works with any frontend technology, avoiding vendor lock-in.
             repo_url: https://github.com/luigi-project/luigi
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-12-02'
-              annotations:
-                slug: luigi
-                project_org: https://github.com/luigi-project
               dev_stats_url: https://insights.linuxfoundation.org/project/luigi
+              lfx_slug: luigi
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/luigi
@@ -367,6 +390,30 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lforSI35bwcB7b0ho1
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/luigi/luigi_Charter.pdf?v=1764684321725
+              annotations:
+                project_org: https://github.com/luigi-project
+            additional_repos: []
+          - item:
+            name: Open Control Plane (openCP)
+            homepage_url: https://github.com/openmcp-project
+            logo: open_control_plane_opencp.svg
+            description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
+            repo_url: https://github.com/openmcp-project/metrics-operator
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2025-06-03'
+              dev_stats_url: https://insights.linuxfoundation.org/project/opencp
+              lfx_slug: opencp
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencp
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-managed-control-planes/open-managed-control-planes_Charter.pdf?v=1773850649767
+              annotations:
+                project_org: https://github.com/openmcp-project
             additional_repos: []
           - item:
             name: Open Crypto Broker
@@ -377,13 +424,12 @@ categories:
 
               *** Note - please create under LF Europe
             repo_url: https://github.com/open-crypto-broker/crypto-broker-documentation
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-12-02'
-              annotations:
-                slug: open-crypto-broker
-                project_org: https://github.com/open-crypto-broker
               dev_stats_url: https://insights.linuxfoundation.org/project/open-crypto-broker
+              lfx_slug: open-crypto-broker
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-crypto-broker
@@ -391,6 +437,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfpSIlrS0guboGTaRG
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-crypto-broker/open-crypto-broker_Charter.pdf?v=1764683894026
+              annotations:
+                project_org: https://github.com/open-crypto-broker
             additional_repos: []
           - item:
             name: Open Key Chain Manager (openKCM)
@@ -401,41 +449,21 @@ categories:
 
               ** Note - create under LF Europe
             repo_url: https://github.com/openkcm/orbital
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-12-02'
-              annotations:
-                slug: open-key-chain-manager
-                project_org: https://github.com/openkcm
               dev_stats_url: https://insights.linuxfoundation.org/project/open-key-chain-manager
+              lfx_slug: open-key-chain-manager
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-key-chain-manager
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf6RrWwbl31D92u3Jc
                 - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-key-chain-manager/open-key-chain-manager_Charter.pdf?v=1764684098991
-            additional_repos: []
-          - item:
-            name: Open Managed Control Plane (openMCP)
-            homepage_url: https://github.com/openmcp-project
-            logo: open_managed_control_plane_openmcp.svg
-            description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
-            repo_url: https://github.com/openmcp-project/metrics-operator
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: '2025-06-03'
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-key-chain-manager/open-key-chain-manager_Charter.pdf?v=1773332568720
               annotations:
-                slug: open-managed-control-planes
-                project_org: https://github.com/openmcp-project
-              dev_stats_url: https://insights.linuxfoundation.org/project/open-managed-control-planes
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-managed-control-planes
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-managed-control-planes/open-managed-control-planes_Charter.pdf?v=1761932500440
+                project_org: https://github.com/openkcm
             additional_repos: []
           - item:
             name: Open Micro Frontend Platform
@@ -443,13 +471,12 @@ categories:
             logo: open_micro_frontend_platform.svg
             description: Open Micro Frontend Platform realizes the concepts of the Platform Mesh providing a platform foundation including Account Models, Security Services and a Kubernetes Control Plane consumable by API and a Micro Frontend based Portal experience.
             repo_url: https://github.com/openmfp/openmfp.org
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
-              annotations:
-                slug: open-micro-frontend-platform
-                project_org: https://github.com/openmfp
               dev_stats_url: https://insights.linuxfoundation.org/project/open-micro-frontend-platform
+              lfx_slug: open-micro-frontend-platform
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-micro-frontend-platform
@@ -457,6 +484,8 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfJH9to3ssdhCbc0br
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-micro-frontend-platform/open-micro-frontend-platform_Charter.pdf?v=1761933564339
+              annotations:
+                project_org: https://github.com/openmfp
             additional_repos:
               - repo_url: https://github.com/openmfp/community
               - repo_url: https://github.com/openmfp/portal-server-lib
@@ -467,13 +496,12 @@ categories:
             logo: platform_mesh.svg
             description: Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. It enables a standardized concept for Services coming from Managed Service Providers through the Kubernetes API thereby  allowing developers and admins to discover, access, and order services from various sources through their beloved kubectl.
             repo_url: https://github.com/platform-mesh/kubernetes-graphql-gateway
+            license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-08-29'
-              annotations:
-                slug: platform-mesh
-                project_org: https://github.com/platform-mesh
               dev_stats_url: https://insights.linuxfoundation.org/project/platform-mesh
+              lfx_slug: platform-mesh
               other_links:
                 - name: Calendar
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/platform-mesh
@@ -481,4 +509,6 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfSyWalrMmArSAt6Co
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/platform-mesh/platform-mesh_Charter.pdf?v=1761931750006
+              annotations:
+                project_org: https://github.com/platform-mesh
             additional_repos: []
