@@ -91,9 +91,6 @@ categories:
             logo: bwi_gmbh.svg
             description: Wir sorgen für die digitale Zukunftsfähigkeit unseres Landes
             twitter: https://twitter.com/BWI_IT
-            organization:
-              name: BWI GmbH
-              linkedin: https://www.linkedin.com/company/bwi-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/bwi-gmbh
           - item:
@@ -111,9 +108,6 @@ categories:
             logo: schwarz_digits_cloud_gmbh_co.svg
             description: Für komplexe IT-Infrastrukturen und skalierbare Cloud-Lösungen ist STACKIT Ihr perfekter Partner. Unsere IaaS & PaaS Services erfüllen dabei zu 100% europäische DSGVO-Datenschutzstandards! Jetzt Beta-Version testen!
             twitter: https://twitter.com/stackitcloud
-            organization:
-              name: Schwarz Digits Cloud GmbH & Co. KG
-              linkedin: https://www.linkedin.com/company/stackit-colocation
             extra:
               linkedin_url: https://www.linkedin.com/company/stackit-colocation
           - item:
@@ -142,11 +136,16 @@ categories:
             homepage_url: https://apefactory.com/
             logo: ape_factory.svg
             description: Helps enterprises in their digital transformation by combining Cloud Native architecture, Data Engineering  and Agile Methodology.
-            organization:
-              name: ape factory
-              linkedin: https://www.linkedin.com/company/ape-factory-gmbh
             extra:
               linkedin_url: https://www.linkedin.com/company/ape-factory-gmbh
+          - item:
+            name: Cloudogu GmbH (member)
+            homepage_url: https://cloudogu.com/
+            logo: cloudogu_gmbh.svg
+            description: Open source software development infrastructure
+            twitter: https://twitter.com/cloudogu
+            extra:
+              linkedin_url: https://www.linkedin.com/company/cloudogu
           - item:
             name: CLYSO GmbH (member)
             homepage_url: https://clyso.com/
@@ -166,9 +165,6 @@ categories:
             homepage_url: https://cyberus-technology.de/
             logo: cyberus_technology.svg
             description: Cyberus Technology provides virtualization, Linux engineering, test automation, and embedded Linux services. Their flagship product, Cyberus KronoCore, ensures uninterrupted operation of legacy software on modern hardware, bridging the gap between old ...
-            organization:
-              name: Cyberus Technology
-              linkedin: https://www.linkedin.com/company/cyberus-technology
             extra:
               linkedin_url: https://www.linkedin.com/company/cyberus-technology
           - item:
@@ -203,8 +199,6 @@ categories:
             homepage_url: https://nearbycomputing.com/
             logo: nearby_computing.svg
             description: 'Nearby Computing: Revolutionizing network management with cutting-edge automation for Telcos & Enterprises.'
-            organization:
-              name: Nearby Computing
           - item:
             name: plusserver (member)
             homepage_url: https://plusserver.com/
@@ -249,9 +243,6 @@ categories:
             homepage_url: https://sba-research.org/
             logo: sba_research.svg
             description: SBA Research is a leading research center in Austria that specializes in Information Security, providing advanced research and consulting services in the field of IT security.
-            organization:
-              name: SBA Research
-              linkedin: https://www.linkedin.com/company/secure-business-austria
             extra:
               linkedin_url: https://www.linkedin.com/company/secure-business-austria
           - item:
