@@ -366,6 +366,25 @@ categories:
               - repo_url: https://github.com/ironcore-dev/dpservice
               - repo_url: https://github.com/ironcore-dev/metal-operator
           - item:
+            name: Katalis
+            homepage_url: https://github.com/telekom/NeoNephos-Katalis
+            logo: katalis.svg
+            description: develop solutions to bridge Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles
+            repo_url: https://github.com/telekom/NeoNephos-Katalis
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2026-03-30'
+              dev_stats_url: https://insights.linuxfoundation.org/project/katalis
+              lfx_slug: katalis
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/katalis
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfT8I2Rgyq7mrXO2QU
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/katalis/katalis_Charter.pdf?v=1774985434219
+          - item:
             name: Luigi
             homepage_url: https://luigi-project.io/
             logo: luigi.svg
@@ -394,51 +413,26 @@ categories:
                 project_org: https://github.com/luigi-project
             additional_repos: []
           - item:
-            name: Open Control Plane (openCP)
+            name: OpenControlPlane
             homepage_url: https://github.com/openmcp-project
-            logo: open_control_plane_opencp.svg
+            logo: opencontrolplane.svg
             description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
             repo_url: https://github.com/openmcp-project/metrics-operator
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
               accepted: '2025-06-03'
-              dev_stats_url: https://insights.linuxfoundation.org/project/opencp
-              lfx_slug: opencp
+              dev_stats_url: https://insights.linuxfoundation.org/project/opencontrolplane
+              lfx_slug: opencontrolplane
               other_links:
                 - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencp
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/opencontrolplane
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lf0aotN8oncp0sZXSx
                 - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-managed-control-planes/open-managed-control-planes_Charter.pdf?v=1773850649767
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/opencp/opencp_Charter.pdf?v=1777662944841
               annotations:
                 project_org: https://github.com/openmcp-project
-            additional_repos: []
-          - item:
-            name: Open Crypto Broker
-            homepage_url: https://github.com/open-crypto-broker/
-            logo: open_crypto_broker.svg
-            description: |-
-              Open Crypto Broker (OCB) introduces an abstraction layer where cryptographic operations are defined through configurable profiles rather than being hardcoded into applications. Instead of applications handling their own cryptographic functions, they can rely on OCB to manage these tasks. This separation of concerns enables organizations to meet new security requirements, such as compliance with FIPS 140 or the transition to Post-Quantum Cryptography, without needing to modify the underlying applications.
-
-              *** Note - please create under LF Europe
-            repo_url: https://github.com/open-crypto-broker/crypto-broker-documentation
-            license: Apache-2.0
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            extra:
-              accepted: '2025-12-02'
-              dev_stats_url: https://insights.linuxfoundation.org/project/open-crypto-broker
-              lfx_slug: open-crypto-broker
-              other_links:
-                - name: Calendar
-                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-crypto-broker
-                - name: iCal
-                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfpSIlrS0guboGTaRG
-                - name: Charter
-                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-crypto-broker/open-crypto-broker_Charter.pdf?v=1764683894026
-              annotations:
-                project_org: https://github.com/open-crypto-broker
             additional_repos: []
           - item:
             name: Open Key Chain Manager (openKCM)
