@@ -15,6 +15,6 @@ landscapeProjectsCategory: NeoNephos Foundation Projects
 landscapeProjectsSubcategories:
   - name: All
     category: All
-landscapefile: data.yml
-hostedLogosDir: logos
+landscapefile: landscape.yml
+hostedLogosDir: hosted_logos
 projectsDefaultCrunchbase: https://www.crunchbase.com/organization/neonephos
