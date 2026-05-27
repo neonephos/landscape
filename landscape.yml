@@ -1,84 +1,6 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/cncf/landscape2/refs/heads/main/docs/config/schema/data.schema.json
 
 categories:
-  - name: Federation
-    subcategories:
-      - name: Federation
-        items:
-          - name: Katalis
-            description: |
-              Katalis should enable a cloud edge continuum in both directions:
-
-              The consumption of telco operator compute/storage resources from gardener controlled environments, i.E. to deploy application fragments close the edge of a UE to fulfill latency requirements
-              The extension of telco operator federation to software cloud providers resources
-            logo: katalis_icon_color.svg
-            homepage_url: https://github.com/neonephos-katalis
-            repo_url: https://github.com/neonephos-katalis
-            summary_integration: Open Micro Frontend Platform, Gardener
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-  - name: Management
-    subcategories:
-      - name: Management
-        items:
-          - name: Open Component Model
-            description: |
-              The Open Component Model (OCM) is an open standard + reference implementation for describing software artifacts in a uniform and machine-readable way. OCM enables consistent end-to-end lifecycle management processes and a secure software supply chain.
-            homepage_url: https://ocm.software/
-            logo: ocm_horizontal_color.svg
-            second_path:
-              - Sustainability Domain / Application Layer
-            repo_url: https://github.com/open-component-model/
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-  - name: Application
-    subcategories:
-      - name: Application
-        items:
-          - name: Luigi
-            description: Luigi is a micro frontend framework that enables you to create a unified user experience across a large set of functionality.
-            homepage_url: https://github.com/luigi-project/
-            logo: luigi_icon_color.svg
-            repo_url: https://github.com/luigi-project/luigi
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-  - name: Data
-    subcategories:
-      - name: Data
-        items:
-          - name: Open Resource Discovery
-            description: |
-              ORD is an open protocol for the decentralized publishing and discovery of application and service metadata. It provides a structured schema for metadata such as endpoints, capabilities, documentation links, and ownership details, ensuring that application resources like APIs, events, data products and AI agents can be discovered, understood, and integrated consistently across different systems and marketplaces.
-            homepage_url: https://open-resource-discovery.github.io/specification/
-            logo: ord_icon_color.svg
-            repo_url: https://github.com/open-resource-discovery
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-            specification: true
-  - name: Service Orchestration
-    subcategories: []
-  - name: Cloud Edge Platform
-    subcategories:
-      - name: Cloud Edge Platform
-        items:
-          - name: Gardener
-            description: Deliver fully-managed clusters at scale everywhere with your own Gardener installation.
-            homepage_url: https://gardener.cloud
-            logo: gardener_stacked_color.svg
-            slack_url: https://join.slack.com/t/gardener-cloud/shared_invite/zt-33c9daems-3oOorhnqOSnldZPWqGmIBw
-            repo_url: https://github.com/gardener/gardener
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-          - name: Garden Linux
-            description: Garden Linux is a Debian GNU/Linux derivate that aims to provide small, auditable Linux images for most cloud providers (e.g. AWS, Azure, GCP etc.) and bare-metal machines.
-            homepage_url: https://gardenlinux.org/
-            logo: garden_linux_stacked_color.svg
-            repo_url: https://github.com/gardenlinux
-            crunchbase: https://www.crunchbase.com/organization/neonephos
-  - name: Virtualization
-    subcategories:
-      - name: Virtualization
-        items:
-          - name: CobaltCore
-            homepage_url: https://github.com/cobaltcore-dev
-            logo: cobaltcore_stacked_color.svg
-            repo_url: https://github.com/cobaltcore-dev/openstack-hypervisor-operator
-            crunchbase: https://www.crunchbase.com/organization/neonephos
   - category:
     name: NeoNephos Foundation Sponsors
     subcategories:
@@ -265,7 +187,7 @@ categories:
             homepage_url: https://github.com/cobaltcore-dev
             logo: cobaltcore.svg
             description: The mission of the Project is to provide a reimagined, opinionated, and Kubernetes enabled OpenStack distribution, fully embedded with other cloud components.
-            repo_url: https://github.com/cobaltcore-dev/cortex
+            repo_url: https://github.com/cobaltcore-dev/gardenlinux
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -282,11 +204,9 @@ categories:
               annotations:
                 project_org: https://github.com/cobaltcore-dev
             additional_repos:
+              - repo_url: https://github.com/cobaltcore-dev/cortex
+              - repo_url: https://github.com/cobaltcore-dev/steering
               - repo_url: https://github.com/cobaltcore-dev/aurora-dashboard
-              - repo_url: https://github.com/cobaltcore-dev/openstack-nix
-              - repo_url: https://github.com/cobaltcore-dev/kvm-node-agent
-              - repo_url: https://github.com/cobaltcore-dev/openstack-hypervisor-operator
-              - repo_url: https://github.com/cobaltcore-dev/docs
           - item:
             name: Gardener
             homepage_url: https://gardener.cloud/
@@ -369,10 +289,10 @@ categories:
               - repo_url: https://github.com/ironcore-dev/metal-operator
           - item:
             name: Katalis
-            homepage_url: https://katalis-project.org/
+            homepage_url: https://github.com/telekom/NeoNephos-Katalis
             logo: katalis.svg
             description: develop solutions to bridge Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles
-            repo_url: https://github.com/neonephos-katalis/opg-ewbi-operator
+            repo_url: https://github.com/telekom/NeoNephos-Katalis
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -386,9 +306,6 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfT8I2Rgyq7mrXO2QU
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/katalis/katalis_Charter.pdf?v=1774985434219
-              annotations:
-                project_org: https://github.com/neonephos-katalis
-            additional_repos: []
           - item:
             name: Luigi
             homepage_url: https://luigi-project.io/
