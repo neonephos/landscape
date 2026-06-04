@@ -280,7 +280,8 @@ categories:
               - repo_url: https://github.com/cloudoperators/greenhouse-extensions
               - repo_url: https://github.com/cloudoperators/juno
               - repo_url: https://github.com/cloudoperators/heureka
-              - repo_url: https://github.com/cloudoperators/steering
+              - repo_url: https://github.com/cloudoperators/shoot-grafter
+              - repo_url: https://github.com/cloudoperators/repo-guard
           - item:
             name: IronCore
             homepage_url: https://ironcore-dev.github.io/ironcore/
@@ -375,8 +376,6 @@ categories:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-component-model
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDxshpdqN9H9Uumud
-                - name: Charter
-                  url: https://github.com/open-component-model/open-component-model/blob/main/docs/steering/CHARTER.md
               annotations:
                 project_org: https://github.com/open-component-model
             additional_repos:
