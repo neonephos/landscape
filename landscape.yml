@@ -379,6 +379,8 @@ categories:
                   url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-component-model
                 - name: iCal
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfDxshpdqN9H9Uumud
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-component-model/open-component-model_Charter.pdf?v=1782927525629
               annotations:
                 project_org: https://github.com/open-component-model
             additional_repos:
@@ -457,6 +459,29 @@ categories:
               - repo_url: https://github.com/openmfp/community
               - repo_url: https://github.com/openmfp/portal-server-lib
               - repo_url: https://github.com/openmfp/portal-ui-lib
+          - item:
+            name: Open Resource Discovery
+            homepage_url: https://open-resource-discovery.org/
+            logo: open_resource_discovery.svg
+            description: The mission of the Project is to provide an open standard for decentralized publishing and discovery of application / service metadata.
+            repo_url: https://github.com/open-resource-discovery/specification
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2026-06-16'
+              dev_stats_url: https://insights.linuxfoundation.org/project/open-resource-discovery
+              lfx_slug: open-resource-discovery
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/open-resource-discovery
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfdjcrVKxK6SV3a6p3
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-resource-discovery/open-resource-discovery_Charter.pdf?v=1782924071086
+              annotations:
+                project_org: https://github.com/open-resource-discovery
+            additional_repos:
+              - repo_url: https://github.com/open-resource-discovery/provider-server
           - item:
             name: Platform Mesh
             homepage_url: https://documentation.apeirora.eu/platform-mesh
