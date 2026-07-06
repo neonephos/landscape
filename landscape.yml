@@ -99,6 +99,53 @@ categories:
             extra:
               linkedin_url: https://www.linkedin.com/company/elastx
           - item:
+            name: Giant Swarm GmbH (member)
+            homepage_url: https://giantswarm.io/
+            logo: giant_swarm_gmbh.svg
+            description: |-
+              Developers use Giant Swarm to easily deploy, run, and scale their applications as well as easily collaborate on and share their infrastructure stacks with the community. 
+              Most of Giant Swarm's team is located in Cologne, Germany, while we also have team members located in the U.K., Netherlands, France, and Spain.
+
+
+
+              About us
+
+              Microservices Infrastructure
+
+              Giant Swarm's mission is to give everyone from startups to large enterprises the power and freedom to build the software that runs the world. 
+
+              Giant Swarm provides and manages complete container infrastructures built on top of Kubernetes on-premise and in the cloud for some of the world's leading companies.
+
+              Want to get your containerized microservices in production?
+              Simply request your free trial at http://giantswarm.io
+
+              Recent updateSee all
+              Image accompanying recent update
+              Why Kubernetes or How Giant Swarm Builds Infrastructure
+              blog.giantswarm.io
+              3 Likes 5mo
+              Company details
+              Website
+              http://giantswarm.io
+              Headquarters
+              K��__ln
+
+              Year founded
+              2014
+
+              Company type
+              Privately Held
+
+              Company size
+              11-50 employees
+
+              Specialties
+              Microservice Infrastructure, Container Orchestration, Web Hosting, IaaS, PaaS, Cloud Application Platform, Docker, Service Orchestration, and Kubernetes
+            crunchbase: https://www.crunchbase.com/organization/giant-swarm
+            twitter: https://twitter.com/giantswarm
+            extra:
+              linkedin_url: https://www.linkedin.com/company/giant-swarm
+          - item:
             name: Kubermatic GmbH (member)
             homepage_url: https://kubermatic.com/
             logo: kubermatic_gmbh.svg
