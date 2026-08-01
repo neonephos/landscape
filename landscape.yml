@@ -54,13 +54,6 @@ categories:
             extra:
               linkedin_url: https://www.linkedin.com/company/23technologies
           - item:
-            name: ape factory (member)
-            homepage_url: https://apefactory.com/
-            logo: ape_factory.svg
-            description: Helps enterprises in their digital transformation by combining Cloud Native architecture, Data Engineering  and Agile Methodology.
-            extra:
-              linkedin_url: https://www.linkedin.com/company/ape-factory-gmbh
-          - item:
             name: Cloudogu GmbH (member)
             homepage_url: https://cloudogu.com/
             logo: cloudogu_gmbh.svg
@@ -186,6 +179,15 @@ categories:
             twitter: https://twitter.com/SUSE
             extra:
               linkedin_url: https://www.linkedin.com/company/attachmate
+          - item:
+            name: SVA System Vertrieb Alexander GmbH (member)
+            homepage_url: https://sva.de/
+            logo: sva_system_vertrieb_alexander_gmbh.svg
+            description: SVA System Vertrieb Alexander GmbH - Ihr Partner für IT-Lösungen ist einer der führenden System-Integratoren Deutschlands im Bereich DataCenter-Infrastruktur.
+            crunchbase: https://www.crunchbase.com/organization/sva
+            twitter: https://twitter.com/SvaGmbh
+            extra:
+              linkedin_url: https://www.linkedin.com/company/sva-system-vertrieb-alexander-gmbh
           - item:
             name: x-cellent technologies GmbH (member)
             homepage_url: https://x-cellent.com/
