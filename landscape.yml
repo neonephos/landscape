@@ -429,7 +429,8 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/luigi/luigi_Charter.pdf?v=1764684321725
               annotations:
                 project_org: https://github.com/luigi-project
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/luigi-project/samples
           - item:
             name: Open Component Model
             homepage_url: https://ocm.software/
