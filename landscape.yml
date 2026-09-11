@@ -54,6 +54,13 @@ categories:
             extra:
               linkedin_url: https://www.linkedin.com/company/23technologies
           - item:
+            name: ape factory (member)
+            homepage_url: https://apefactory.com/
+            logo: ape_factory.svg
+            description: Helps enterprises in their digital transformation by combining Cloud Native architecture, Data Engineering  and Agile Methodology.
+            extra:
+              linkedin_url: https://www.linkedin.com/company/ape-factory-gmbh
+          - item:
             name: Cloudogu GmbH (member)
             homepage_url: https://cloudogu.com/
             logo: cloudogu_gmbh.svg
