@@ -579,4 +579,8 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/platform-mesh/platform-mesh_Charter.pdf?v=1761931750006
               annotations:
                 project_org: https://github.com/platform-mesh
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/platform-mesh/helm-charts
+              - repo_url: https://github.com/platform-mesh/portal
+              - repo_url: https://github.com/platform-mesh/provider-quickstart
+              - repo_url: https://github.com/platform-mesh/platform-mesh.github.io
