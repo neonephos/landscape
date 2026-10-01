@@ -164,6 +164,15 @@ categories:
             extra:
               linkedin_url: https://www.linkedin.com/company/reply
           - item:
+            name: mogenius (member)
+            homepage_url: https://mogenius.com/
+            logo: mogenius.svg
+            description: mogenius is your all-in-one cloud to host and run any application, with managed Kubernetes, CI/CD, and CDN by Cloudflare
+            crunchbase: https://www.crunchbase.com/organization/mogenius
+            twitter: https://twitter.com/mogenius
+            extra:
+              linkedin_url: https://www.linkedin.com/company/mogenius
+          - item:
             name: Nearby Computing (member)
             homepage_url: https://nearbycomputing.com/
             logo: nearby_computing.svg
