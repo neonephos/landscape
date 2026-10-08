@@ -417,7 +417,8 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/katalis/katalis_Charter.pdf?v=1774985434219
               annotations:
                 project_org: https://github.com/neonephos-katalis
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/neonephos-katalis/opg-ewbi-documentation
           - item:
             name: Luigi
             homepage_url: https://luigi-project.io/
