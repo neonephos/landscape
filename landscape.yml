@@ -249,9 +249,9 @@ categories:
         items:
           - item:
             name: Chantico
-            homepage_url: https://github.com/chantico-project/chantico
+            homepage_url: https://chantico.io/
             logo: chantico.svg
-            description: The mission of the Project is to develop a cloud-native approach to monitor and attribute the energy consumption of data center IT equipment, such as PDUs and bare metal servers, but also virtual machines running on hypervisors and pods in clusters.
+            description: Chantico is a Kubernetes operator focused on bringing energy intelligence to modern, cloud-native data centers. Built as part of the Modular Integrated Sustainable Datacenters (MISD) project, Chantico provides a fully declarative way to discover, configure, and monitor physical energy measurement devices.
             repo_url: https://github.com/chantico-project/chantico
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -266,11 +266,14 @@ categories:
                   url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfLTQQY7vubKTQlgVU
                 - name: Charter
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/chantico/chantico_Charter.pdf?v=1779377899875
+              annotations:
+                project_org: https://github.com/chantico-project
+            additional_repos: []
           - item:
             name: CobaltCore
-            homepage_url: https://github.com/cobaltcore-dev
+            homepage_url: https://cobaltcore.dev/
             logo: cobaltcore.svg
-            description: The mission of the Project is to provide a reimagined, opinionated, and Kubernetes enabled OpenStack distribution, fully embedded with other cloud components.
+            description: CobaltCore is an opinionated OpenStack distribution that builds upon IronCore's foundation to support non-cloud-native workloads, offering enhanced features like a micro-frontend self-service portal, advanced scheduling, and offering enhanced features and seamless integration with other components.
             repo_url: https://github.com/cobaltcore-dev/cortex
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -297,7 +300,7 @@ categories:
             name: Gardener
             homepage_url: https://gardener.cloud/
             logo: gardener.svg
-            description: The mission of the Project is to provide homogeneous Kubernetes clusters at scale on any infrastructure using hosted control planes.
+            description: A proven, scalable open-source system that simplifies Kubernetes cluster management across multiple infrastructures, allowing developers to focus more on innovation and less on cluster operations.
             repo_url: https://github.com/gardener/gardener
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -322,9 +325,9 @@ categories:
               - repo_url: https://github.com/gardener/autoscaler
           - item:
             name: Garden Linux
-            homepage_url: https://gardenlinux.io/
+            homepage_url: https://gardenlinux.org/
             logo: garden_linux.svg
-            description: The mission of the project is to develop a minimal, immutable, API-driven operating system layer for automated, Kubernetes-centric platforms.
+            description: Garden Linux is a Debian GNU/Linux derivate that aims to provide small, auditable Linux images for most cloud providers (e.g. AWS, Azure, GCP etc.) and bare-metal machines.
             repo_url: https://github.com/gardenlinux/gardenlinux
             license: Other
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -344,9 +347,9 @@ categories:
             additional_repos: []
           - item:
             name: Greenhouse
-            homepage_url: https://cloudoperators.github.io/greenhouse/
+            homepage_url: https://cloudoperators.dev/
             logo: greenhouse.svg
-            description: Greenhouse is a comprehensive platform designed to address the challenges of operating large-scale cloud infrastructures. It offers a holistic dashboard and API to manage various operational aspects efficiently and transparently. Moreover, it enables operations of a globally distributed cloud infrastructure in compliance with industry standards. The platform addresses common operational challenges such as the complexity of tools, fragmentation of configuration, visibility and permission management. Several plugins extend the core platform, providing cloud-native observability, security & compliance tooling and more. These plugins come with sane default configurations and include all necessary components for application-specific needs such as production-proven alerts, playbooks, metric visualization dashboards.
+            description: Greenhouse is a cloud operations platform designed to streamline and simplify the management of a large-scale, distributed infrastructure.
             repo_url: https://github.com/cloudoperators/greenhouse
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -371,9 +374,9 @@ categories:
               - repo_url: https://github.com/cloudoperators/repo-guard
           - item:
             name: IronCore
-            homepage_url: https://ironcore-dev.github.io/ironcore/
+            homepage_url: https://ironcore.dev/
             logo: ironcore.svg
-            description: IronCore provides the new reference for compounded software layers for inventorying, managing, and maintaining Baremetal using Kubernetes’ cloud-native principles. Kubernetes, originally designed to manage and orchestrate containerized applications and microservices, has significantly expanded its reach through its inherent API extensibility, allowing it to be adapted to a wide range of use cases entirely outside the realm of containers. IronCore takes a modern spin with Kubernetes, offering a single interface for managing resources orchestrated across regions, data centers, and availability zones. All assembled with the identical blueprint, thereby offering unmatched flexibility, scalability, and ease of use. Unlike traditional infrastructure solutions, IronCore delivers a much sought, fresh, next generation approach. As a default, Ceph is modularly provided as a cloud-natively automated, vendor-neutral storage backend for block, shared, and object storage. Furthermore, a disruptive network fabric based on CLOS Topology is included. The software defined network data plane materializes through routed layer 3 only, using an IPv6 overlay, and is grounded on the robust, standard experience of the established internet architecture and technology.
+            description: IronCore is a Kubernetes-based platform that modernizes bare-metal infrastructure management by providing a unified, cloud-native interface for orchestrating compute, storage, and networking resources across distributed environments.
             repo_url: https://github.com/ironcore-dev/ironcore
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -400,7 +403,7 @@ categories:
             name: Katalis
             homepage_url: https://katalis-project.org/
             logo: katalis.svg
-            description: develop solutions to bridge Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles
+            description: Katalis bridges Telco and Cloud Provider APIs utilizing Kubernetes to drive orchestration and federation principles. Katalis establishes interoperability by translating Telco Federation APIs to IT Cloud resource provisioning and management.
             repo_url: https://github.com/neonephos-katalis/opg-ewbi-operator
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -423,13 +426,7 @@ categories:
             name: Luigi
             homepage_url: https://luigi-project.io/
             logo: luigi.svg
-            description: |-
-              Luigi was first introduced as an open source project in 2018, together with kyma.
-              Key features include:
-              Modular architecture: Breaks down monolithic apps into smaller, manageable UI modules.
-              Extensibility: Easily integrates external UI components.
-              Scalability: Supports distributed development across multiple teams.
-              Technology agnostic: Works with any frontend technology, avoiding vendor lock-in.
+            description: Luigi is a micro frontend JavaScript framework for building modular, scalable, and technology‚Äëagnostic web applications with a unified user experience across distributed UI modules.
             repo_url: https://github.com/luigi-project/luigi
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -452,7 +449,7 @@ categories:
             name: Open Component Model
             homepage_url: https://ocm.software/
             logo: open_component_model.svg
-            description: OCM is an open standard for describing software artifacts and lifecycle metadata. It is a technology-agnostic and machine-readable format and focuses on software artifacts that need to be delivered securely across boundaries. At the same time, it maintains integrity and provenance along the complete supply chain. With the unique identifier of OCM components acting as correlation ID, it enables the alignment of different, possibly asynchronous processes and tools across all stages of the software lifecycle.
+            description: The Open Component Model is a Software Bill of Delivery (SBoD) for packaging, signing, transporting and deploying your artifacts ‚Äì preserving end-to-end security, integrity and provenance.
             repo_url: https://github.com/open-component-model/open-component-model
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -475,9 +472,9 @@ categories:
               - repo_url: https://github.com/open-component-model/community
           - item:
             name: OpenControlPlane
-            homepage_url: https://github.com/openmcp-project
+            homepage_url: https://open-control-plane.io/
             logo: opencontrolplane.svg
-            description: This open source platform provides everything a team needs to orchestrate software in an enterprise environment. Built on top of a secure, enterprise-grade Gardener Kubernetes stack, it connects seamlessly with essential enterprise tools like code repositories, artifactories, identity providers, and auditing systems. Designed for security, compliance, and scalability, the platform integrates Kubernetes-compliant operators and cloud providers while supporting reusable, organization-specific templates and enforceable policies. It empowers engineering teams to move fast without compromising on governance—turning cloud-native complexity into a manageable, traceable, and repeatable system.
+            description: The OpenControlPlane enables extensible Infrastructure- and Configuration-as-Data capabilities as a Service.
             repo_url: https://github.com/openmcp-project/metrics-operator
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -497,12 +494,9 @@ categories:
             additional_repos: []
           - item:
             name: Open Key Chain Manager (openKCM)
-            homepage_url: https://github.com/openkcm
+            homepage_url: https://openkcm.io/
             logo: open_key_chain_manager_openkcm.svg
-            description: |-
-              Centralized key management solution to govern customer encryption keys (Level 1 keys), with BYOK (Bring Your Own Key) and HYOK (Hold Your Own Key) capabilities.
-
-              ** Note - create under LF Europe
+            description: OpenKCM is a data encryption key management solution, implementing a hierarchical key derivation system that wraps internal encryption keys with customer-managed root keys stored in external keystores , exposing key operations via KMIP protocol.
             repo_url: https://github.com/openkcm/orbital
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -524,7 +518,7 @@ categories:
             name: Open Micro Frontend Platform
             homepage_url: https://openmfp.org/
             logo: open_micro_frontend_platform.svg
-            description: Open Micro Frontend Platform realizes the concepts of the Platform Mesh providing a platform foundation including Account Models, Security Services and a Kubernetes Control Plane consumable by API and a Micro Frontend based Portal experience.
+            description: Open Micro Frontend Platform extends the Platform Mesh with frontend development principles, enabling the dynamic integration of services into a unified interface experience.
             repo_url: https://github.com/openmfp/openmfp.org
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -549,7 +543,7 @@ categories:
             name: Open Resource Discovery
             homepage_url: https://open-resource-discovery.org/
             logo: open_resource_discovery.svg
-            description: The mission of the Project is to provide an open standard for decentralized publishing and discovery of application / service metadata.
+            description: Open Resource Discovery (ORD) is a protocol that allows applications and services to self-describe their exposed resources and capabilities.
             repo_url: https://github.com/open-resource-discovery/specification
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
@@ -570,9 +564,9 @@ categories:
               - repo_url: https://github.com/open-resource-discovery/provider-server
           - item:
             name: Platform Mesh
-            homepage_url: https://documentation.apeirora.eu/platform-mesh
+            homepage_url: https://platform-mesh.io/
             logo: platform_mesh.svg
-            description: Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. It enables a standardized concept for Services coming from Managed Service Providers through the Kubernetes API thereby  allowing developers and admins to discover, access, and order services from various sources through their beloved kubectl.
+            description: Platform Mesh establishes interoperability between multiple providers by building upon the Kubernetes API and resource model. Developers and admins can discover, access, and order services from various sources through their beloved kubectl.
             repo_url: https://github.com/platform-mesh/platform-mesh
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
