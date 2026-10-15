@@ -167,7 +167,7 @@ categories:
             name: mogenius (member)
             homepage_url: https://mogenius.com/
             logo: mogenius.svg
-            description: mogenius is your all-in-one cloud to host and run any application, with managed Kubernetes, CI/CD, and CDN by Cloudflare
+            description: mogenius is your all-in-one cloud to host and run any application, with managed Kubernetes, CI/CD, and CDN by Cloudflare.
             crunchbase: https://www.crunchbase.com/organization/mogenius
             twitter: https://twitter.com/mogenius
             extra:
