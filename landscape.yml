@@ -588,3 +588,26 @@ categories:
               - repo_url: https://github.com/platform-mesh/portal
               - repo_url: https://github.com/platform-mesh/provider-quickstart
               - repo_url: https://github.com/platform-mesh/platform-mesh.github.io
+          - item:
+            name: Thalamus
+            homepage_url: https://cobaltcore-dev.github.io/thalamus/main/
+            logo: thalamus.svg
+            description: |-
+              Thalamus is a vendor-neutral, Kubernetes-native inference service for sovereign LLM deployments. Weights, prompts, and context are protected and stay in the deployment perimeter.
+
+              Thalamus is built on llm-d, vLLM, the Gateway API inference extension, and Cortex.
+              Supports Nvidia, AMD, and Intel infrastructure.
+            repo_url: https://github.com/thalamus-ai/thalamus
+            license: Apache-2.0
+            crunchbase: https://www.crunchbase.com/organization/neonephos
+            extra:
+              accepted: '2026-10-05'
+              dev_stats_url: https://insights.linuxfoundation.org/project/thalamus
+              lfx_slug: thalamus
+              other_links:
+                - name: Calendar
+                  url: https://zoom-lfx.platform.linuxfoundation.org/meetings/thalamus
+                - name: iCal
+                  url: https://webcal.prod.itx.linuxfoundation.org/lfx/lfsJFlv2HQOL0afrih
+                - name: Charter
+                  url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/thalamus/thalamus_Charter.pdf?v=1791229389200
