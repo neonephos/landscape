@@ -217,6 +217,12 @@ categories:
         name: Associate
         items:
           - item:
+            name: Deutsche Bundesbank (member)
+            homepage_url: https://bundesbank.de/
+            logo: deutsche_bundesbank.svg
+            description: The Deutsche Bundesbank is the central bank of the Federal Republic of Germany, focusing on monetary policy within the Eurosystem. It supports the transition to a low carbon economy and offers a unique perspective on money through its Money Museum. Add...
+            crunchbase: https://www.crunchbase.com/organization/deutsche-bundesbank
+          - item:
             name: Fraunhofer-Institut für Software- und Systemtechnik ISST (member)
             homepage_url: https://isst.fraunhofer.de/
             logo: fraunhofer_institut_fur_software_und_systemtechnik_isst.svg
