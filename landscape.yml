@@ -590,7 +590,6 @@ categories:
               annotations:
                 project_org: https://github.com/platform-mesh
             additional_repos:
-              - repo_url: https://github.com/platform-mesh/helm-charts
               - repo_url: https://github.com/platform-mesh/portal
               - repo_url: https://github.com/platform-mesh/provider-quickstart
               - repo_url: https://github.com/platform-mesh/platform-mesh.github.io
