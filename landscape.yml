@@ -280,7 +280,7 @@ categories:
             homepage_url: https://cobaltcore.dev/
             logo: cobaltcore.svg
             description: CobaltCore is an opinionated OpenStack distribution that builds upon IronCore's foundation to support non-cloud-native workloads, offering enhanced features like a micro-frontend self-service portal, advanced scheduling, and offering enhanced features and seamless integration with other components.
-            repo_url: https://github.com/cobaltcore-dev/openstack-nix
+            repo_url: https://github.com/cobaltcore-dev/cortex
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -296,7 +296,12 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/cobaltcore/cobaltcore_Charter.pdf?v=1763511319012
               annotations:
                 project_org: https://github.com/cobaltcore-dev
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/cobaltcore-dev/aurora-dashboard
+              - repo_url: https://github.com/cobaltcore-dev/openstack-nix
+              - repo_url: https://github.com/cobaltcore-dev/kvm-node-agent
+              - repo_url: https://github.com/cobaltcore-dev/openstack-hypervisor-operator
+              - repo_url: https://github.com/cobaltcore-dev/docs
           - item:
             name: Gardener
             homepage_url: https://gardener.cloud/
@@ -318,7 +323,12 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/gardener/gardener_Charter.pdf?v=1763510989994
               annotations:
                 project_org: https://github.com/gardener
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/gardener/machine-controller-manager
+              - repo_url: https://github.com/gardener/etcd-druid
+              - repo_url: https://github.com/gardener/etcd-backup-restore
+              - repo_url: https://github.com/gardener/dashboard
+              - repo_url: https://github.com/gardener/autoscaler
           - item:
             name: Garden Linux
             homepage_url: https://gardenlinux.org/
@@ -362,7 +372,12 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/greenhouse/greenhouse_Charter.pdf?v=1761933677450
               annotations:
                 project_org: https://github.com/cloudoperators
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/cloudoperators/greenhouse-extensions
+              - repo_url: https://github.com/cloudoperators/juno
+              - repo_url: https://github.com/cloudoperators/heureka
+              - repo_url: https://github.com/cloudoperators/shoot-grafter
+              - repo_url: https://github.com/cloudoperators/repo-guard
           - item:
             name: IronCore
             homepage_url: https://ironcore.dev/
@@ -384,7 +399,12 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/ironcore/ironcore_Charter.pdf?v=1761932939494
               annotations:
                 project_org: https://github.com/ironcore-dev
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/ironcore-dev/ironcore-net
+              - repo_url: https://github.com/ironcore-dev/ceph-provider
+              - repo_url: https://github.com/ironcore-dev/libvirt-provider
+              - repo_url: https://github.com/ironcore-dev/dpservice
+              - repo_url: https://github.com/ironcore-dev/metal-operator
           - item:
             name: Katalis
             homepage_url: https://katalis-project.org/
@@ -406,7 +426,8 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/katalis/katalis_Charter.pdf?v=1774985434219
               annotations:
                 project_org: https://github.com/neonephos-katalis
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/neonephos-katalis/opg-ewbi-documentation
           - item:
             name: Luigi
             homepage_url: https://luigi-project.io/
@@ -435,7 +456,7 @@ categories:
             homepage_url: https://ocm.software/
             logo: open_component_model.svg
             description: The Open Component Model is a Software Bill of Delivery (SBoD) for packaging, signing, transporting and deploying your artifacts ‚Äì preserving end-to-end security, integrity and provenance.
-            repo_url: https://github.com/open-component-model/ocm
+            repo_url: https://github.com/open-component-model/open-component-model
             license: Apache-2.0
             crunchbase: https://www.crunchbase.com/organization/neonephos
             extra:
@@ -451,7 +472,10 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-component-model/open-component-model_Charter.pdf?v=1782927525629
               annotations:
                 project_org: https://github.com/open-component-model
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/open-component-model/ocm-spec
+              - repo_url: https://github.com/open-component-model/open-delivery-gear
+              - repo_url: https://github.com/open-component-model/community
           - item:
             name: OpenControlPlane
             homepage_url: https://open-control-plane.io/
@@ -517,7 +541,10 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-micro-frontend-platform/open-micro-frontend-platform_Charter.pdf?v=1761933564339
               annotations:
                 project_org: https://github.com/openmfp
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/openmfp/community
+              - repo_url: https://github.com/openmfp/portal-server-lib
+              - repo_url: https://github.com/openmfp/portal-ui-lib
           - item:
             name: Open Resource Discovery
             homepage_url: https://open-resource-discovery.org/
@@ -539,7 +566,8 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/open-resource-discovery/open-resource-discovery_Charter.pdf?v=1782924071086
               annotations:
                 project_org: https://github.com/open-resource-discovery
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/open-resource-discovery/provider-server
           - item:
             name: Platform Mesh
             homepage_url: https://platform-mesh.io/
@@ -561,7 +589,10 @@ categories:
                   url: https://lfx-cdn-prod.s3.us-east-1.amazonaws.com/project-artifacts/platform-mesh/platform-mesh_Charter.pdf?v=1761931750006
               annotations:
                 project_org: https://github.com/platform-mesh
-            additional_repos: []
+            additional_repos:
+              - repo_url: https://github.com/platform-mesh/portal
+              - repo_url: https://github.com/platform-mesh/provider-quickstart
+              - repo_url: https://github.com/platform-mesh/platform-mesh.github.io
           - item:
             name: Thalamus
             homepage_url: https://cobaltcore-dev.github.io/thalamus/main/
